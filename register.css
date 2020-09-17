@@ -1,0 +1,61 @@
+header{
+    text-align: center;
+}
+#signup
+{
+    margin: 0 auto;
+    width: 40%;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+}
+.formfild
+{
+    padding: 8px;
+    width: 100%;
+    border-radius: 4px;
+    border:1px solid black
+}
+.formgroup
+{
+    margin-top: 2%;
+}
+.but
+{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+
+body
+{
+    background: url();
+}
+footer
+{
+    text-align: center;
+    background-color: grey;
+}
+.phone{
+    text-align: center;
+}
+.approved
+{
+    text-align: center;
+}
+.page3
+{
+    color: green;
+    background-color: honeydew;
+
+}
+body
+{
+    text-transform: capitalize;
+}
+
+#firebaseui-auth-container,#loader{
+margin-top: 50px;
+}

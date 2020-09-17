@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="data1.css">
+ 
+    <title>Document</title>
+</head>
+<body>
+<main>
+<form >
+   
+<label for="userId">პირადი ნომერი</label>
+<input type="text" name="userId" id="userId" required>
+<label for="userName">სახელი</label>
+<input type="text" name="userName " id="userName" required>
+<label for="userLastName ">გვარი</label>
+<input type="text" name="userLastName" id="userLastName"required>
+<label for="userEmail">იმეილი</label>
+<input type="email" name="userEmail" id="userEmail"required>
+<label for="userMob">მობილური</label>
+<input type="number" name="userMob" id="userMob"required>
+<label for="userAddress" >მისამართი</label>
+<input type="text" name="userAddress" id="userAddress" placeholder="შეიყვანე შეკვეთის მიღების მისამართი"required>
+
+
+
+
+
+
+<button id='addBtn' class="btn waves-effect waves-light">შეუკვეთე</button>
+<button id='upDataBtn' class="btn waves-effect waves-light">update</button>
+<button id='removeBtn' class="btn waves-effect red-darken-1">remove</button>
+</form>
+</main>
+
+<script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-database.js"></script>
+
+<script>
+
+  var firebaseConfig = {
+    apiKey: "AIzaSyDlQoDWXNU9yRcR6Ez2RgJPq87aQ-sIYRQ",
+    authDomain: "userdata-bebe1.firebaseapp.com",
+    databaseURL: "https://userdata-bebe1.firebaseio.com",
+    projectId: "userdata-bebe1",
+    storageBucket: "userdata-bebe1.appspot.com",
+    messagingSenderId: "995879129397",
+    appId: "1:995879129397:web:cb1b48fd2a994b11ff3c7c",
+    measurementId: "G-DY9Q8H85BH"
+  };
+
+  firebase.initializeApp(firebaseConfig);
+
+</script>
+
+
+<script src="data1.js"></script>
+</body>
+</html>

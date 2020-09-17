@@ -1,0 +1,9 @@
+1. infinite scrolling function
+2. registration method/or non registration (when user order somthing automaticlly add as a client in base) fire base registracia userebis  -DONE
+3. add to basket function(goods add to basket count amount and buy button-  they will be always on screen even, when user is scrolling), buy now function(skip to order page ) - 
+iset adgilas unda shevinaxo rom kvela gverdze dasheardes - lokas striji da searching storage - DONE
+4. pmt method function
+5. product searching logic
+6. online chat slide from the left edge - messanger and 
+7. product detail foto & description (browsing to detail)
+8. analyse of users behave and Offer an interesting product for them

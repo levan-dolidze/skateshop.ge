@@ -1,0 +1,156 @@
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+/* .cart ion-icon{
+    vertical-align: bottom;
+    font-size: 20px;
+    padding-right: 5px;
+} */
+
+.cart a{
+   
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.container,
+.products-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    /* padding-bottom: 100px; */
+}
+.image{
+    margin-right: 20px;
+    margin-left: 20px;
+    position: relative;
+    overflow: hidden;
+ border-bottom-style: outset; 
+  
+}
+
+.add-cart {
+    position: absolute;
+    width: 100%;
+    background-color: darkgray;
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+    cursor: pointer;
+    text-align: center;
+}
+.image:hover .cart1,
+.image:hover .cart2,
+.image:hover .cart3,
+.image:hover .cart4 {
+bottom: 50px;
+opacity: 1;
+padding: 10px;
+text-decoration: none;
+
+}
+
+/* cart page */
+
+.products-container{
+    max-width: 500px;
+   justify-content: space-around; 
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.products-container ion-icon{
+    font-size: 25px;
+    color: blue;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.product-header{
+    width: 100%;
+    max-width: 650px;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 4px solid lightgray;
+    margin:0 auto;
+}
+
+.product-title{
+    width: 45%;
+}
+.price{
+    width: 15%;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+}
+
+.quantity{
+    width: 30%;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+}
+
+
+.total{
+    width: 15%;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+}
+.product{
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid lightgray;
+    
+}
+
+.products img{
+    width: 75px;
+}
+.basketTotalContainer{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 10px 0;
+}
+.basketTotalTitle{
+    width: 30%;
+}
+.basketTotal{
+    width: 10%;
+}
+.products-container .product-header{
+    margin-top: 5px;
+}
+
+#signup{
+    background-color: lavender;
+border-style: outset;
+border-color: darkgrey;
+
+
+}
+
+
+/* buy button */
+.buyButton{
+  
+    text-align: center;
+
+}
+
+#pageButtons{
+    text-align: center;
+    margin-bottom: 30px;
+}
