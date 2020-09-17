@@ -1,16 +1,4 @@
 
-*{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
-    
-}
-/* .cart ion-icon{
-    vertical-align: bottom;
-    font-size: 20px;
-    padding-right: 5px;
-} */
-
 .cart a{
    
     color: #fff;
@@ -31,7 +19,7 @@
     margin-left: 20px;
     position: relative;
     overflow: hidden;
- border-bottom-style: outset; 
+    border-bottom-style: outset; 
   
 }
 
