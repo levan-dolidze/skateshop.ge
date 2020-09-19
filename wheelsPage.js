@@ -1,51 +1,28 @@
 let carts=document.querySelectorAll('.add-cart');
 let products=[
     {
-        name:'crime',
-        tag:'skate1small',
-        price:130 ,
+        name:'cspitfire',
+        tag:'wheelsSmall1',
+        price:80 ,
+        inCart:0
+    },
+    
+    {
+        name:'cspitfire',
+        tag:'wheelsSmall2',
+        price:70 ,
         inCart:0
     },
     {
-        name:'flip',
-        tag:'skate2small',
-        price:130,
+        name:'cspitfire',
+        tag:'wheelsSmall3',
+        price:70 ,
         inCart:0
     },
     {
-        name:'element',
-        tag:'skate3small',
-        price:135,
-        inCart:0
-    },
-    {
-        name:'almost',
-        tag:'skate4small',
-        price:130,
-        inCart:0
-    },
-    {
-        name:'zero',
-        tag:'skate5small',
-        price:130,
-        inCart:0
-    },
-    {
-        name:'alien',
-        tag:'skate6small',
-        price:130,
-        inCart:0
-    },
-    {
-        name:'girl',
-        tag:'skate7small',
-        price:130,
-        inCart:0
-    },
-    {
-        name:'baker',
-        tag:'skate8small',
-        price:230,
+        name:'cspitfire',
+        tag:'wheelsSmall4',
+        price:80 ,
         inCart:0
     }
     
@@ -176,7 +153,7 @@ if(cartItems && productContainer){
       <div class='product'>
       <i class="fa fa-times-circle" aria-hidden="true"></i>
           <img src='./images/${item.tag}.jpg'>
-          <span>  ${item.name}</span>
+          <span> ${item.name}</span>
       </div>
       <div class='price'>GEL${item.price},00 </div> 
   
@@ -198,12 +175,13 @@ if(cartItems && productContainer){
 
   productContainer.innerHTML+=`
   <div class="basketTotalContainer">
-  <h5 class="basketTotalTitle"> 
-  Total </h5>:</h5 class="basketTotal"> GEL ${cartCost}
-
+  <h4 class="basketTotalTitle">
+ Total </h4>:
+  </h4 class="basketTotal"> GEL ${cartCost}
 
   `
 
+  
 }
 
 }
@@ -211,5 +189,3 @@ if(cartItems && productContainer){
     onLoadCartTotal();
     displayCart();
     clearItems();
-
-  
