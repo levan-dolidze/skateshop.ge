@@ -1,51 +1,28 @@
 let carts=document.querySelectorAll('.add-cart');
 let products=[
     {
-        name:'crime',
-        tag:'skate1small',
-        price:130 ,
+        name:'cspitfire',
+        tag:'wheelsSmall1',
+        price:80 ,
+        inCart:0
+    },
+    
+    {
+        name:'cspitfire',
+        tag:'wheelsSmall2',
+        price:70 ,
         inCart:0
     },
     {
-        name:'flip',
-        tag:'skate2small',
-        price:130,
+        name:'cspitfire',
+        tag:'wheelsSmall3',
+        price:70 ,
         inCart:0
     },
     {
-        name:'element',
-        tag:'skate3small',
-        price:135,
-        inCart:0
-    },
-    {
-        name:'almost',
-        tag:'skate4small',
-        price:130,
-        inCart:0
-    },
-    {
-        name:'zero',
-        tag:'skate5small',
-        price:130,
-        inCart:0
-    },
-    {
-        name:'alien',
-        tag:'skate6small',
-        price:130,
-        inCart:0
-    },
-    {
-        name:'girl',
-        tag:'skate7small',
-        price:130,
-        inCart:0
-    },
-    {
-        name:'baker',
-        tag:'skate8small',
-        price:230,
+        name:'cspitfire',
+        tag:'wheelsSmall4',
+        price:80 ,
         inCart:0
     }
     
@@ -212,5 +189,3 @@ if(cartItems && productContainer){
     onLoadCartTotal();
     displayCart();
     clearItems();
-
-  
