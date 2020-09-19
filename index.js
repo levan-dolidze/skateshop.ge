@@ -176,7 +176,7 @@ if(cartItems && productContainer){
       <div class='product'>
       <i class="fa fa-times-circle" aria-hidden="true"></i>
           <img src='./images/${item.tag}.jpg'>
-          <span> ${item.name}</span>
+          <span>  ${item.name}</span>
       </div>
       <div class='price'>GEL${item.price},00 </div> 
   
@@ -198,13 +198,12 @@ if(cartItems && productContainer){
 
   productContainer.innerHTML+=`
   <div class="basketTotalContainer">
-  <h4 class="basketTotalTitle">
- Total </h4>:
-  </h4 class="basketTotal"> GEL ${cartCost}
+  <h5 class="basketTotalTitle"> 
+  Total </h5>:</h5 class="basketTotal"> GEL ${cartCost}
+
 
   `
 
-  
 }
 
 }

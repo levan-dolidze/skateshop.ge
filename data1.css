@@ -3,8 +3,7 @@
     margin:0
 }
 main{
-    /* width: 100vw;
-    height: 100vh; */
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -16,8 +15,8 @@ form{
     width:400px;
     border: solid 1px #ebebeb;
     padding:2rem;
-    /* margin-left: 800px; */
-    margin-bottom: 400px;
+    margin-bottom: 40px;
+    background-color: rgb(229, 238, 236);
     
 }
 button{
