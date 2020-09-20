@@ -59,7 +59,7 @@ productCode.value=""
 removeBtn.addEventListener('click',(e)=>{
     e.preventDefault();
     rootRef.child(userId.value).remove().then(()=>{
-window.alert('user removed from database');
+window.alert('თქვენი შეკვეთა გაუქმებულია');
     })
     .catch(error =>{
         console.error(error);
