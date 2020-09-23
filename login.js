@@ -15,7 +15,7 @@
         },
        
         signInFlow: 'popup',
-        signInSuccessUrl: 'home.html',
+        signInSuccessUrl: 'index.html',
 
         signInOptions: [
           // Leave the lines as is for the providers you want to offer your users.
