@@ -25,9 +25,10 @@ addBtn.addEventListener('click', (e)=>{
         user_Email:userEmail.value,
         user_Mob:userMob.value,
         user_Address:userAddress.value,
-        product_Code:productCode.value
-
+        product_Code:productCode.value,
+        
     });
+    window.location.replace('deliver.html');
 });
 
 addBtn.addEventListener('click',()=>{

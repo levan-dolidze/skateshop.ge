@@ -14,6 +14,8 @@ var mainApp={};
 
       function logOut(){
           firebase.auth().signOut();
+          localStorage.clear();
+          
       }
 
 mainApp.logOut=logOut;
