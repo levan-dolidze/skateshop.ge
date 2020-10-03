@@ -27,9 +27,9 @@
         //   firebase.auth.PhoneAuthProvider.PROVIDER_ID
         ],
   
-        tosUrl: '<your-tos-url>',
+        tosUrl: 'index.html',
         
-        privacyPolicyUrl: 'main.html'
+        privacyPolicyUrl: 'index.html'
 
       };
       ui.start('#firebaseui-auth-container', uiConfig);

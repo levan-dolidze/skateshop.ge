@@ -4,7 +4,8 @@ let products=[
         name:'crime',
         tag:'skate1small',
         price:130 ,
-        inCart:0
+        inCart:0,
+        code:"001"
     },
     {
         name:'flip',
@@ -76,14 +77,14 @@ function clearItems (){
         
         if(clearButton){
             document.querySelector('.cart span').textContent=0
-            document.querySelector('.cart #totalSpan',).textContent=0;
+            document.querySelector('.cart #totalSpan').textContent=0;
             localStorage.clear()
-           
+            productContainer="";
         }
-      
+        
     })
 }
-clearItems()
+
 
 
 
@@ -179,6 +180,7 @@ if(cartItems && productContainer){
           <span>  ${item.name}</span>
       </div>
       <div class='price'>GEL${item.price},00 </div> 
+      <div class='code'>code- ${item.code} </div> 
   
       <div class='quantity'>
       <i class="fa fa-minus-circle" aria-hidden="true"></i>
@@ -212,4 +214,3 @@ if(cartItems && productContainer){
     displayCart();
     clearItems();
 
-  

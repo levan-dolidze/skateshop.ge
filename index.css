@@ -153,7 +153,9 @@ border-color: darkgrey;
 
 
 }
-
+#loader{
+text-align: center;
+}
 
 /* buy button */
 .buyButton{
