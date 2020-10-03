@@ -32,30 +32,49 @@ addBtn.addEventListener('click', (e)=>{
 });
 
 addBtn.addEventListener('click',()=>{
-userEmail.value="",
-userId.value="",
-userLastName.value="",
+    userId.value="",
+    productCode.value="",
+    userLastName.value="",
+    userEmail.value="",  
 userMob.value="",
 userAddress.value="",
-user.value="",
-productCode.value=""
+user.value=""
+
 
 });
 
 
-// upDataBtn.addEventListener('click',(e)=>{
-// e.preventDefault();
-// const newData={
-//     user_age:userAge.value,
-//     first_name:user.value,
-//     last_name:userLastName.value,
-// }
-// const updates={};
-// updates["users" + userId.value]=newData;
-// updates['/super-users/' + userId.value]=newData;
-// database.ref().update(updates)
+upDataBtn.addEventListener('click',(e)=>{
+e.preventDefault();
+const newData={
+    product_Code:productCode.value,
+    first_name:user.value,
+    last_name:userLastName.value,
+    user_Email:userEmail.value,
+    user_Mob:userMob.value,
+    user_Address:userAddress.value
+}
+const updates={};
+updates["users" + userId.value]=newData;
+updates['/super-users/' + userId.value]=newData;
+database.ref().update(updates)
 
-// });
+window.location.replace('update.html');
+});
+
+upDataBtn.addEventListener('click',()=>{
+    userId.value="",
+    productCode.value="",
+    userLastName.value="",
+    userEmail.value="",  
+userMob.value="",
+userAddress.value="",
+user.value=""
+
+
+
+});
+
 
 removeBtn.addEventListener('click',(e)=>{
     e.preventDefault();
@@ -66,11 +85,8 @@ window.alert('თქვენი შეკვეთა გაუქმებუ�
         console.error(error);
     });
     
-})
+});
 
-rootRef.on('child_added', snapshot=>{
-    console.log('child(s) added !');
-})
 
 
 
