@@ -74,17 +74,19 @@ let clearButton=document.getElementById("clearButton");
 function clearItems (){
 
     clearButton.addEventListener("click",()=>{
-        
+      
         if(clearButton){
+        
             document.querySelector('.cart span').textContent=0
             document.querySelector('.cart #totalSpan').textContent=0;
             localStorage.clear()
-            productContainer="";
+        
         }
         
     })
 }
 
+clearItems ()
 
 
 
@@ -205,6 +207,10 @@ if(cartItems && productContainer){
 
 
   `
+ 
+  clearButton.addEventListener("click",()=>{
+    productContainer.innerHTML=''
+  })
 
 }
 
