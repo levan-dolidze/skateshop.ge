@@ -12,7 +12,7 @@
    <link rel="stylesheet" href="purchase.css">
    <link rel="stylesheet" href="ident.css">
    <link rel="stylesheet" href="data1.css">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase.js"></script>
 
     <title>cart</title>
@@ -85,26 +85,42 @@
 
 <div class="parent" class="col-lg-6">
   <div class="child"  >
-    <p>შეავსე შეკვეთის ფორმა</p>
+    
   <main>
-  
+    <p>შეავსე შეკვეთის ფორმა</p>
     <form >
-       
+
+      <div class="formgroup">
+    
     <label for="userId">პირადი ნომერი</label>
     <input type="text" name="userId" id="userId" required>
+  </div>
+  <div class="formgroup">
     <label for="productCode">პროდუქტის კოდ(ებ)ი</label>
     <input type="text" name="userId" id="productCode" required>
+  </div>
+
+  <div class="formgroup">
     <label for="userName">სახელი</label>
     <input type="text" name="userName " id="userName" required>
+  </div>
+  <div class="formgroup">
     <label for="userLastName ">გვარი</label>
     <input type="text" name="userLastName" id="userLastName"required>
+  </div>
+  <div class="formgroup">
     <label for="userEmail">იმეილი</label>
     <input type="email" name="userEmail" id="userEmail"required>
+  </div>
+  <div class="formgroup">
     <label for="userMob">მობილური</label>
     <input type="text" name="userMob" id="userMob"required>
+  </div>
+  <div class="formgroup">
     <label for="userAddress" >მისამართი</label>
     <input type="text" name="userAddress" id="userAddress" placeholder="შეიყვანე შეკვეთის მიღების მისამართი"required>
     
+  </div>
   
     <button id='addBtn' class="btn waves-effect waves-light">შეკვეთა</button>
     <button id='upDataBtn' class="btn waves-effect waves-light">განახლება</button>
@@ -310,7 +326,7 @@
 
 <script src="data1.js"></script>
 <script src='main.js'></script>
-<script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script> 
+<!-- <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>  -->
 <script src="index.js"></script>
 <!-- <script src="purchase.js"></script> -->
 

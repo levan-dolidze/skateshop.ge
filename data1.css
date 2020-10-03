@@ -19,6 +19,28 @@ form{
     background-color: rgb(229, 238, 236);
     
 }
-button{
-    margin-top: 1rem;
+
+#addBtn{
+background-color: cadetblue;
+margin-top: 10px;
 }
+#upDataBtn{
+    margin-top: 10px;
+    background-color: darkgoldenrod;
+}
+#removeBtn{
+    margin-top: 10px;
+    background-color: firebrick;
+}
+.formgroup
+{
+    margin-top: 2%;
+    width: 200px;
+
+}
+#userId,#productCode,#userName,#userLastName,#userEmail,#userMob,#userAddress{
+    width: 300px;
+   
+}
+    
+
