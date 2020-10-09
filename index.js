@@ -220,3 +220,5 @@ if(cartItems && productContainer){
     displayCart();
     clearItems();
 
+
+    

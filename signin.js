@@ -1,5 +1,5 @@
 
-  // Your web app's Firebase configuration
+
   var firebaseConfig = {
     apiKey: "AIzaSyBAXmha2rwi2Maih59GYu1lhGH5I4Na00c",
     authDomain: "signin-3365a.firebaseapp.com",
@@ -10,7 +10,7 @@
     appId: "1:554515064041:web:4bc20cac00678a3be1fc78",
     measurementId: "G-10J5H1W6V9"
   };
-  // Initialize Firebase
+
   firebase.initializeApp(firebaseConfig);
 
 

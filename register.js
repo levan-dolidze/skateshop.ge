@@ -224,14 +224,3 @@ function signUp(){
 
 
 
-// auth.onAuthStateChanged(function(user){
-// if(user){
-//     var email=user.email;
-//     alert('welcome to skateshop');
-    
-// } 
-// else{
-// alert('email or password is not corect')
-// };
-
-// });
