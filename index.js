@@ -1,3 +1,4 @@
+const productHeader=document.querySelector(".product-header")
 let carts=document.querySelectorAll('.add-cart');
 let products=[
     {
@@ -11,43 +12,50 @@ let products=[
         name:'flip',
         tag:'skate2small',
         price:130,
-        inCart:0
+        inCart:0,
+        code:"002"
     },
     {
         name:'element',
         tag:'skate3small',
         price:135,
-        inCart:0
+        inCart:0,
+        code:"003"
     },
     {
         name:'almost',
         tag:'skate4small',
         price:130,
-        inCart:0
+        inCart:0,
+        code:"004"
     },
     {
         name:'zero',
         tag:'skate5small',
         price:130,
-        inCart:0
+        inCart:0,
+        code:"005"
     },
     {
         name:'alien',
         tag:'skate6small',
         price:130,
-        inCart:0
+        inCart:0,
+        code:"006"
     },
     {
         name:'girl',
         tag:'skate7small',
         price:130,
-        inCart:0
+        inCart:0,
+        code:"007"
     },
     {
         name:'baker',
         tag:'skate8small',
         price:230,
-        inCart:0
+        inCart:0,
+        code:"008"
     }
     
 
@@ -77,10 +85,11 @@ function clearItems (){
       
         if(clearButton){
         
-            document.querySelector('.cart span').textContent=0
+            document.querySelector('.cart span').textContent=0;
             document.querySelector('.cart #totalSpan').textContent=0;
+            // document.querySelector(".product-header").textContent=""
             localStorage.clear()
-        
+           
         }
         
     })
@@ -180,13 +189,14 @@ if(cartItems && productContainer){
       <i class="fa fa-times-circle" aria-hidden="true"></i>
           <img src='./images/${item.tag}.jpg'>
           <span>  ${item.name}</span>
+          <span> / code-  ${item.code}</span>
+          <span> / ფასი -  ${item.price} ლარი </span>
       </div>
-      <div class='price'>GEL${item.price},00 </div> 
-      <div class='code'>code- ${item.code} </div> 
+     
+  
   
       <div class='quantity'>
       <i class="fa fa-minus-circle" aria-hidden="true"></i>
-      
      
       <span>${item.inCart}</span>
       
@@ -203,8 +213,8 @@ if(cartItems && productContainer){
   productContainer.innerHTML+=`
   <div class="basketTotalContainer">
   <h5 class="basketTotalTitle"> 
-  Total </h5>:</h5 class="basketTotal"> GEL ${cartCost}
-
+  ჯამი: </h5 class="basketTotal"> ${cartCost} ლარი
+  </h5>
 
   `
  
