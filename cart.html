@@ -33,7 +33,7 @@
            
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              products
+             პროდუქტები
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="completeskb.html">  complete skateboards </a>
@@ -56,24 +56,24 @@
             
             </li>
           </ul>
-          <button id="clearButton" type="button" class="btn btn-info">clear</button >
+          <button id="clearButton" type="button" class="btn btn-info">წაშლა </button >
          
         
-          <li class="cart">
-            <a href="cart.html">
-              <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-         my cart <span>0</span>
-        <i class="fa fa-dollar" aria-hidden="true"></i>
-    </ion-icon> total <span id='totalSpan'>0</span>
+            <li class="cart">
+              <a href="cart.html">
+                (<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+          <ion-icon name='basket'></ion-icon><span >0</span> )
+          
+      </ion-icon>  <span id='totalSpan'>0</span> ლარი
+ 
+       
+          <!-- <a href="login.html"></a> -->
+              </a>
+              <a  onclick="mainApp.logOut() " >გასვლა <i class="fa fa-sign-out" aria-hidden="true"></i></a>
+           
+             
 
-     
-    <a href="login.html">Login</a>
-         
-            <a  onclick="mainApp.logOut() " >logOut </a>
-        
-      
-
-        </li>
+          </li>
       
         </div>
       </nav>
@@ -123,7 +123,7 @@
   </div>
   
     <button id='addBtn' class="btn waves-effect waves-light">შეკვეთა</button>
-    <button id='upDataBtn' class="btn waves-effect waves-light">განახლება</button>
+    <!-- <button id='upDataBtn' class="btn waves-effect waves-light">განახლება</button> -->
     <button id='removeBtn' class="btn waves-effect red-darken-1">წაშლა</button>
     </form>
     </main>

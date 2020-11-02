@@ -42,7 +42,7 @@ footer{
 
  header{
     height:var(--headerhight);
-    background-color: #3333;
+    /* background-color: #3333; */
     
  }
 
@@ -111,3 +111,9 @@ footer{
     margin-bottom: 30px;
     margin-top:40px;
 }
+#totalSpan{
+    /* color:  #17a2b8 ; */
+    margin-left: 10px;
+
+}
+
