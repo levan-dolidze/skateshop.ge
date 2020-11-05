@@ -44,36 +44,36 @@ user.value=""
 });
 
 
-upDataBtn.addEventListener('click',(e)=>{
-e.preventDefault();
-const newData={
-    product_Code:productCode.value,
-    first_name:user.value,
-    last_name:userLastName.value,
-    user_Email:userEmail.value,
-    user_Mob:userMob.value,
-    user_Address:userAddress.value
-}
-const updates={};
-updates["users" + userId.value]=newData;
-updates['/super-users/' + userId.value]=newData;
-database.ref().update(updates)
+// upDataBtn.addEventListener('click',(e)=>{
+// e.preventDefault();
+// const newData={
+//     product_Code:productCode.value,
+//     first_name:user.value,
+//     last_name:userLastName.value,
+//     user_Email:userEmail.value,
+//     user_Mob:userMob.value,
+//     user_Address:userAddress.value
+// }
+// const updates={};
+// updates["users" + userId.value]=newData;
+// updates['/super-users/' + userId.value]=newData;
+// database.ref().update(updates)
 
-window.location.replace('update.html');
-});
+// window.location.replace('update.html');
+// });
 
-upDataBtn.addEventListener('click',()=>{
-    userId.value="",
-    productCode.value="",
-    userLastName.value="",
-    userEmail.value="",  
-userMob.value="",
-userAddress.value="",
-user.value=""
+// upDataBtn.addEventListener('click',()=>{
+//     userId.value="",
+//     productCode.value="",
+//     userLastName.value="",
+//     userEmail.value="",  
+// userMob.value="",
+// userAddress.value="",
+// user.value=""
 
 
 
-});
+// });
 
 
 removeBtn.addEventListener('click',(e)=>{
