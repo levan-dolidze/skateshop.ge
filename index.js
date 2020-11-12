@@ -186,7 +186,7 @@ if(cartItems && productContainer){
   Object.values(cartItems).map(item=>{
       productContainer.innerHTML+=`
       <div class='product'>
-      <i class="fa fa-times-circle" aria-hidden="true"></i>
+ 
           <img src='./images/${item.tag}.jpg'>
           <span>  ${item.name}</span>
           <span> / code-  ${item.code}</span>
@@ -196,12 +196,13 @@ if(cartItems && productContainer){
   
   
       <div class='quantity'>
-      <i class="fa fa-minus-circle" aria-hidden="true"></i>
+    
      
-      <span>${item.inCart}</span>
+    
       
-      <i class="fa fa-plus-circle" aria-hidden="true"></i>
-     
+      (<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+      <ion-icon name='basket'></ion-icon><span > ${item.inCart}</span> )
+     /
       <div class='total'>
       GEL${item.inCart * item.price},00
 

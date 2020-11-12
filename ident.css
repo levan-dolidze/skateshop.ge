@@ -112,8 +112,18 @@ footer{
     margin-top:40px;
 }
 #totalSpan{
-    /* color:  #17a2b8 ; */
+  
     margin-left: 10px;
-
+    object-fit: cover;
 }
 
+
+.navbar-brand{
+    width: 50px;
+}
+.skateLogo{
+   max-width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    
+}
