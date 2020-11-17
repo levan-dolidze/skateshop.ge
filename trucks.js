@@ -1,31 +1,28 @@
 let carts=document.querySelectorAll('.add-cart');
 let products=[
     {
-        name:'inependent',
-        tag:'trucksindependentsmall1',
-        price:15 ,
-        inCart:0
+        name:'Independent Thrasher',
+        tag:'100small',
+        price:170 ,
+        inCart:0,
+        code:"100"
     },
     
     {
-        name:'royal',
-        tag:'trucksroyalsmall1',
-        price:20 ,
-        inCart:0
+        name:'Independent ',
+        tag:'101small',
+        price:170 ,
+        inCart:0,
+        code:"101"
     },
     {
-        name:'tensor',
-        tag:'truckstensorsmall1',
-        price:25 ,
-        inCart:0
-    },
-    {
-        name:'thunders',
-        tag:'trucksthundersmall1',
-        price:30 ,
-        inCart:0
+        name:'Independent Hollow',
+        tag:'102small',
+        price:170 ,
+        inCart:0,
+        code:"102"
     }
-    
+ 
 
 ];
 

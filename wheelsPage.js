@@ -1,30 +1,21 @@
 let carts=document.querySelectorAll('.add-cart');
 let products=[
     {
-        name:'cspitfire',
-        tag:'wheelsSmall1',
-        price:80 ,
-        inCart:0
+        name:'Spitfire Formula four',
+        tag:'200small',
+        price:110 ,
+        inCart:0,
+        code:"200"
     },
     
     {
-        name:'cspitfire',
-        tag:'wheelsSmall2',
-        price:70 ,
-        inCart:0
-    },
-    {
-        name:'cspitfire',
-        tag:'wheelsSmall3',
-        price:70 ,
-        inCart:0
-    },
-    {
-        name:'cspitfire',
-        tag:'wheelsSmall4',
-        price:80 ,
-        inCart:0
+        name:'Spitfire Formula four',
+        tag:'201small',
+        price:110 ,
+        inCart:0,
+        code:"201"
     }
+
     
 
 ];
