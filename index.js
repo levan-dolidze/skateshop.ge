@@ -3,8 +3,8 @@ let carts=document.querySelectorAll('.add-cart');
 let products=[
     {
         name:'crime',
-        tag:'skate1small',
-        price:130 ,
+        tag:'001small',
+        price:249 ,
         inCart:0,
         code:"001"
     },
