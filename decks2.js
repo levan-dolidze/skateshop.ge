@@ -1,26 +1,26 @@
 let carts=document.querySelectorAll('.add-cart');
 let products=[
     {
-        name:'Independent Thrasher',
-        tag:'100small',
+        name:'GIRL Cory Kennedy',
+        tag:'010small',
         price:249 ,
         inCart:0,
-        code:"100"
+        code:"010"
     },
     
     {
-        name:'Independent ',
-        tag:'101small',
-        price:170 ,
+        name:'GIRL Sean Malto ',
+        tag:'011small',
+        price:249 ,
         inCart:0,
-        code:"101"
+        code:"011"
     },
     {
-        name:'Independent Hollow',
-        tag:'102small',
-        price:170 ,
+        name:'GIRL Jeron Wilson',
+        tag:'009small',
+        price:249 ,
         inCart:0,
-        code:"102"
+        code:"009"
     }
  
 

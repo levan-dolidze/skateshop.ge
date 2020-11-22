@@ -127,3 +127,67 @@ footer{
     border-radius: 5px;
     
 }
+
+.container{
+ width: 100%;
+ height: 100%;
+ margin:0 auto;
+}
+
+/* .image{
+    width: 28%;
+    height: 300px;  
+  
+    margin: 0 auto;
+
+} */
+
+/* #img0,#img1,#img2,#img3,#img4,#img5,#img6,#img7,#img8{
+    width: 80%;
+    height: 78%;
+    object-fit: cover;
+  
+}  */
+
+.image{
+    /* margin-right: 20px;
+    margin-left: 20px; */
+    position: relative;
+    overflow: hidden;
+    border-bottom-style: outset; 
+  
+}
+
+.image{
+    width: 230px;
+    height: 250px;  
+    margin: 0 auto;
+    margin-top: 10px;
+
+}
+
+.box-text{
+height: 3px;
+font-size: small;
+  
+}
+.img0, .img1,.img2,.img3,.img4, .img5, .img6, .img7, .img8{
+    height: 200px;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

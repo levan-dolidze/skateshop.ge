@@ -1,5 +1,5 @@
 
-$("#img0").ezPlus();
+$(".img0").ezPlus();
 
 
 

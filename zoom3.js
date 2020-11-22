@@ -1,1 +1,1 @@
-$("#img3").ezPlus();
+$(".img3").ezPlus();

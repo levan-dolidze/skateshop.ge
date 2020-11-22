@@ -1,71 +1,66 @@
-const productHeader=document.querySelector(".product-header")
 let carts=document.querySelectorAll('.add-cart');
 let products=[
-    {
-        name:'BAKER',
-        tag:'001small',
-        price:249 ,
-        inCart:0,
-        code:"001"
-    },
-    {
-        name:'BAKER',
-        tag:'002small',
-        price:249,
-        inCart:0,
-        code:"002"
-    },
-    {
-        name:'BAKER',
-        tag:'003small',
-        price:249,
-        inCart:0,
-        code:"003"
-    },
-    {
-        name:'BAKER',
-        tag:'004small',
-        price:249,
-        inCart:0,
-        code:"004"
-    },
-    {
-        name:'FLIP',
-        tag:'005small',
-        price:249,
-        inCart:0,
-        code:"005"
-    },
-    {
-        name:'FLIP',
-        tag:'006small',
-        price:249,
-        inCart:0,
-        code:"006"
-    },
-    {
-        name:'FLIP',
-        tag:'007small',
-        price:249,
-        inCart:0,
-        code:"007"
-    },
-    {
-        name:'FLIP',
-        tag:'008small',
-        price:249,
-        inCart:0,
-        code:"008"
-    },
+    // decks
     {
         name:'GIRL',
-        tag:'009small',
+        tag:'010small',
         price:249,
         inCart:0,
-        code:"009"
-    }
-    
+        code:"010"
+    },
+    {
+        name:'GIRL ',
+        tag:'011small',
+        price:249 ,
+        inCart:0,
+        code:"011"
+    },
 
+    
+    {
+        name:'GIRL ',
+        tag:'009small',
+        price:249 ,
+        inCart:0,
+        code:"009"
+    },
+//   trucks
+{
+    name:'INDEPENDENT trasher ',
+    tag:'100small',
+    price:170 ,
+    inCart:0,
+    code:"100"
+},
+{
+    name:'INDEPENDENT ',
+    tag:'101small',
+    price:170 ,
+    inCart:0,
+    code:"101"
+},
+{
+    name:'INDEPENDENT hollow ',
+    tag:'102small',
+    price:170 ,
+    inCart:0,
+    code:"102"
+},
+//  wheels
+{
+    name:'SPITFIRE 52mm',
+    tag:'200small',
+    price:110 ,
+    inCart:0,
+    code:"200"
+},
+{
+    name:'SPITFIRE 53mm',
+    tag:'201small',
+    price:110 ,
+    inCart:0,
+    code:"201"
+},
 ];
 
 
@@ -89,20 +84,17 @@ let clearButton=document.getElementById("clearButton");
 function clearItems (){
 
     clearButton.addEventListener("click",()=>{
-      
-        if(clearButton){
         
-            document.querySelector('.cart span').textContent=0;
-            document.querySelector('.cart #totalSpan').textContent=0;
-            // document.querySelector(".product-header").textContent=""
+        if(clearButton){
+            document.querySelector('.cart span').textContent=0
+            document.querySelector('.cart #totalSpan',).textContent=0;
             localStorage.clear()
            
         }
-        
+      
     })
 }
-
-clearItems ()
+clearItems()
 
 
 
@@ -193,23 +185,20 @@ if(cartItems && productContainer){
   Object.values(cartItems).map(item=>{
       productContainer.innerHTML+=`
       <div class='product'>
- 
+      <i class="fa fa-times-circle" aria-hidden="true"></i>
           <img src='./images/${item.tag}.jpg'>
-          <span>  ${item.name}</span>
-          <span> / code-  ${item.code}</span>
-          <span> / ფასი -  ${item.price} ₾ </span>
+          <span> ${item.name}</span>
       </div>
-     
-  
+      <div class='price'>₾${item.price},00 </div> 
   
       <div class='quantity'>
-    
-     
-    
+      <i class="fa fa-minus-circle" aria-hidden="true"></i>
       
-      (<i class="fa fa-shopping-cart" aria-hidden="true"></i>
-      <ion-icon name='basket'></ion-icon><span > ${item.inCart}</span> )
-     /
+     
+      <span>${item.inCart}</span>
+      
+      <i class="fa fa-plus-circle" aria-hidden="true"></i>
+     
       <div class='total'>
       GEL${item.inCart * item.price},00
 
@@ -220,16 +209,13 @@ if(cartItems && productContainer){
 
   productContainer.innerHTML+=`
   <div class="basketTotalContainer">
-  <h5 class="basketTotalTitle"> 
-  ჯამი: </h5 class="basketTotal"> ${cartCost} ₾
-  </h5>
+  <h4 class="basketTotalTitle">
+ Total </h4>:
+  </h4 class="basketTotal"> ₾ ${cartCost}
 
   `
- 
-  clearButton.addEventListener("click",()=>{
-    productContainer.innerHTML=''
-  })
 
+  
 }
 
 }
@@ -237,6 +223,3 @@ if(cartItems && productContainer){
     onLoadCartTotal();
     displayCart();
     clearItems();
-
-
-    

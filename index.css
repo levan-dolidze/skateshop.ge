@@ -33,14 +33,7 @@
     margin-top: 50px;
   
 }
-.image{
-    margin-right: 20px;
-    margin-left: 20px;
-    position: relative;
-    overflow: hidden;
-    border-bottom-style: outset; 
-  
-}
+
 
 .add-cart {
     position: absolute;
@@ -55,7 +48,7 @@
 .image:hover .cart2,
 .image:hover .cart3,
 .image:hover .cart4 {
-bottom: 50px;
+bottom: 20px;
 opacity: 1;
 padding: 10px;
 text-decoration: none;
@@ -197,6 +190,3 @@ text-align: center;
 .cartTitle{
     color: green;
 }
-
-
-

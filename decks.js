@@ -1,27 +1,63 @@
 let carts=document.querySelectorAll('.add-cart');
 let products=[
     {
-        name:'Independent Thrasher',
-        tag:'100small',
+        name:'BAKER',
+        tag:'001small',
         price:249 ,
         inCart:0,
-        code:"100"
+        code:"001"
     },
     
     {
-        name:'Independent ',
-        tag:'101small',
-        price:170 ,
+        name:'BAKER ',
+        tag:'002small',
+        price:249 ,
         inCart:0,
-        code:"101"
+        code:"002"
     },
     {
-        name:'Independent Hollow',
-        tag:'102small',
-        price:170 ,
+        name:'BAKER Howan',
+        tag:'003small',
+        price:249 ,
         inCart:0,
-        code:"102"
+        code:"003"
+    },
+    {
+        name:'BAKER Raynolds',
+        tag:'004small',
+        price:249 ,
+        inCart:0,
+        code:"004"
+    },
+    {
+        name:'FLIP Tommy Penny',
+        tag:'005small',
+        price:249 ,
+        inCart:0,
+        code:"005"
+    },
+    {
+        name:'FLIP ',
+        tag:'006small',
+        price:249 ,
+        inCart:0,
+        code:"006",
+    },
+    {
+        name:'FLIP ',
+        tag:'007small',
+        price:249 ,
+        inCart:0,
+        code:"007"
+    },
+    {
+        name:'FLIP ',
+        tag:'008small',
+        price:249 ,
+        inCart:0,
+        code:"008"
     }
+ 
  
 
 ];
