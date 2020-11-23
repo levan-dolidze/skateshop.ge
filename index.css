@@ -1,10 +1,4 @@
 
-.cart a{
-   
-    color: #fff;
-    cursor: pointer;
-    text-decoration: none;
-}
 
 .cart {
     vertical-align: bottom;
@@ -25,6 +19,7 @@
     
 }
 
+
 .container,
 .products-container{
     display: flex;
@@ -43,6 +38,8 @@
     opacity: 0;
     cursor: pointer;
     text-align: center;
+    display: flex;
+
 }
 .image:hover .cart1,
 .image:hover .cart2,
@@ -54,6 +51,8 @@ padding: 10px;
 text-decoration: none;
 
 }
+
+
 
 /* cart page */
 
@@ -82,7 +81,7 @@ text-decoration: none;
     justify-content: space-around; 
     margin: 0 auto;
     margin-top: 40px;
-    /* justify-content: space-between; */
+
 
 }
 
