@@ -144,7 +144,8 @@ footer{
     height: 250px;  
     margin: 0 auto;
     margin-top: 10px;
-    /* border-style: outset; */
+
+  
  
 }
 
@@ -161,7 +162,6 @@ color: white;
 .img0, .img1,.img2,.img3,.img4, .img5, .img6, .img7, .img8{
     height: 200px;
     object-fit: cover;
-    /* margin-left: 40px; */
     margin: 0 auto;
  
 }
