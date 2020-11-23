@@ -1,66 +1,31 @@
 let carts=document.querySelectorAll('.add-cart');
 let products=[
-    // decks
     {
-        name:'GIRL',
-        tag:'010small',
-        price:249,
+        name:'complete',
+        tag:'308small',
+        price:549 ,
         inCart:0,
-        code:"010"
+        code:"308"
     },
-    {
-        name:'GIRL ',
-        tag:'011small',
-        price:249 ,
-        inCart:0,
-        code:"011"
-    },
-
     
     {
-        name:'GIRL ',
-        tag:'009small',
-        price:249 ,
+        name:'complete ',
+        tag:'309small',
+        price:549 ,
         inCart:0,
-        code:"009"
+        code:"309"
     },
-//   trucks
-{
-    name:'INDEPENDENT trasher ',
-    tag:'100small',
-    price:169 ,
-    inCart:0,
-    code:"100"
-},
-{
-    name:'INDEPENDENT ',
-    tag:'101small',
-    price:169 ,
-    inCart:0,
-    code:"101"
-},
-{
-    name:'INDEPENDENT hollow ',
-    tag:'102small',
-    price:169 ,
-    inCart:0,
-    code:"102"
-},
-//  wheels
-{
-    name:'SPITFIRE 52mm',
-    tag:'200small',
-    price:109 ,
-    inCart:0,
-    code:"200"
-},
-{
-    name:'SPITFIRE 53mm',
-    tag:'201small',
-    price:109 ,
-    inCart:0,
-    code:"201"
-},
+    {
+        name:'complete',
+        tag:'310small',
+        price:549 ,
+        inCart:0,
+        code:"310"
+    }
+
+ 
+ 
+
 ];
 
 
@@ -200,7 +165,7 @@ if(cartItems && productContainer){
       <i class="fa fa-plus-circle" aria-hidden="true"></i>
      
       <div class='total'>
-      GEL${item.inCart * item.price},00
+      ₾ ${item.inCart * item.price},00
 
       </div>
       `;

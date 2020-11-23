@@ -3,7 +3,7 @@ let products=[
     {
         name:'Spitfire Formula four',
         tag:'200small',
-        price:110 ,
+        price:109 ,
         inCart:0,
         code:"200"
     },
@@ -11,7 +11,7 @@ let products=[
     {
         name:'Spitfire Formula four',
         tag:'201small',
-        price:110 ,
+        price:109 ,
         inCart:0,
         code:"201"
     }

@@ -3,7 +3,7 @@ let products=[
     {
         name:'Independent Thrasher',
         tag:'100small',
-        price:170 ,
+        price:169 ,
         inCart:0,
         code:"100"
     },
@@ -11,14 +11,14 @@ let products=[
     {
         name:'Independent ',
         tag:'101small',
-        price:170 ,
+        price:169 ,
         inCart:0,
         code:"101"
     },
     {
         name:'Independent Hollow',
         tag:'102small',
-        price:170 ,
+        price:169 ,
         inCart:0,
         code:"102"
     }
