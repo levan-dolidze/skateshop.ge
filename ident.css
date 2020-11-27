@@ -159,7 +159,25 @@ color: white;
 }
 .box-textPrice{
     text-shadow: 0 0 3px #e41157;
+    
 }
+.box-textOldPrice{
+    text-decoration:line-through;
+    text-decoration-color:  red ;
+   
+}
+.box-textSalePrice{
+    padding-left: 5px;
+}
+.box-textSalePrice{
+    text-shadow: 0 0 3px #e41157;
+}
+
+.priceDiv{
+    display: flex;
+    text-align: center;
+}
+
 
 .img0, .img1,.img2,.img3,.img4, .img5, .img6, .img7, .img8{
     height: 200px;
