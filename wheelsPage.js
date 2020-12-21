@@ -14,6 +14,13 @@ let products=[
         price:109 ,
         inCart:0,
         code:"201"
+    },
+      {
+        name:'Spitfire Formula four',
+        tag:'202small',
+        price:109 ,
+        inCart:0,
+        code:"202"
     }
 
     
