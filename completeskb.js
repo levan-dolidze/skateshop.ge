@@ -31,10 +31,10 @@ let products=[
     },
     {
         name:'complete ',
-        tag:'304small',
+        tag:'310small',
         price:549 ,
         inCart:0,
-        code:"304"
+        code:"310"
     },
     {
         name:'complete ',
