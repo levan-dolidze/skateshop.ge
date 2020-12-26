@@ -154,28 +154,32 @@ footer{
 .box-text{
 height: 3px;
 font-size: small;
-color: white;
-  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+/* color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue; */
+  font-weight: bold;
 }
-.box-textPrice{
+ /* .box-textPrice{
     text-shadow: 0 0 3px #e41157;
     
-}
+}  */
 .box-textOldPrice{
     text-decoration:line-through;
     text-decoration-color:  red ;
+    margin-left: 25px;
+    
    
 }
 .box-textSalePrice{
-    padding-left: 5px;
+   margin-left: 25px;
+    
+   
 }
-.box-textSalePrice{
-    text-shadow: 0 0 3px #e41157;
-}
+
 
 .priceDiv{
     display: flex;
     text-align: center;
+    
 }
 
 

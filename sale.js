@@ -3,7 +3,7 @@ let products=[
     {
         name:'deck+griptape',
         tag:'500small',
-        price:232 ,
+        price:199 ,
         inCart:0,
         code:"500"
     },
