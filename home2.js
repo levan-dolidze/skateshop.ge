@@ -61,6 +61,13 @@ let products=[
     inCart:0,
     code:"201"
 },
+{
+    name:'SPITFIRE lacey baker Size 51mm',
+    tag:'202small',
+    price:109 ,
+    inCart:0,
+    code:"202"
+}
 ];
 
 
