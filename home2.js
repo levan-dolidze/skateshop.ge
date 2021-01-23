@@ -9,20 +9,20 @@ let products=[
         code:"010"
     },
     {
-        name:'GIRL ',
-        tag:'011small',
-        price:249 ,
+        name:'sean malto GIRL pro deck+grip ',
+        tag:'502small',
+        price:199 ,
         inCart:0,
-        code:"011"
+        code:"502"
     },
 
     
     {
-        name:'GIRL ',
-        tag:'009small',
-        price:249 ,
+        name:'jeron wilson GIRL pro deck+grip ',
+        tag:'503small',
+        price:199 ,
         inCart:0,
-        code:"009"
+        code:"503"
     },
 //   trucks
 {
@@ -32,13 +32,13 @@ let products=[
     inCart:0,
     code:"100"
 },
-{
-    name:'INDEPENDENT ',
-    tag:'101small',
-    price:169 ,
-    inCart:0,
-    code:"101"
-},
+// {
+//     name:'INDEPENDENT ',
+//     tag:'101small',
+//     price:169 ,
+//     inCart:0,
+//     code:"101"
+// },
 {
     name:'INDEPENDENT hollow ',
     tag:'102small',

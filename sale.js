@@ -1,19 +1,40 @@
 let carts=document.querySelectorAll('.add-cart');
 let products=[
     {
-        name:'deck+griptape',
+        name:'flip deck+griptape',
         tag:'500small',
-        price:199 ,
+        price:199,
         inCart:0,
         code:"500"
     },
     
     {
-        name:'PRO complete ',
+        name:'flip deck+griptape ',
         tag:'501small',
-        price:494 ,
+        price:199,
         inCart:0,
         code:"501"
+    },
+    {
+        name:'GIRL pro deck+griptape ',
+        tag:'502small',
+        price:199,
+        inCart:0,
+        code:"502"
+    },
+    {
+        name:'GIRL pro deck+griptape ',
+        tag:'503small',
+        price:199,
+        inCart:0,
+        code:"503"
+    },
+    {
+        name:'rowan BAKER pro deck+griptape ',
+        tag:'504small',
+        price:230,
+        inCart:0,
+        code:"504"
     }
 
  

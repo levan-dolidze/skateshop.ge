@@ -9,18 +9,18 @@ let products=[
     },
     
     {
-        name:'GIRL Sean Malto ',
-        tag:'011small',
-        price:249 ,
+        name:'GIRL Sean Malto pro deck+grip ',
+        tag:'502small',
+        price:199,
         inCart:0,
-        code:"011"
+        code:"502"
     },
     {
-        name:'GIRL Jeron Wilson',
-        tag:'009small',
-        price:249 ,
+        name:'GIRL Jeron Wilson pro deck+grip',
+        tag:'503small',
+        price:199 ,
         inCart:0,
-        code:"009"
+        code:"503"
     }
  
 

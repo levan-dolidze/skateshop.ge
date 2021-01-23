@@ -8,19 +8,19 @@ let products=[
         code:"001"
     },
     
+    // {
+    //     name:'BAKER ',
+    //     tag:'504small',
+    //     price:249 ,
+    //     inCart:0,
+    //     code:"504"
+    // },
     {
-        name:'BAKER ',
-        tag:'002small',
-        price:249 ,
+        name:'Rowan BAKER Pro Deck+Griptape',
+        tag:'504small',
+        price:230 ,
         inCart:0,
-        code:"002"
-    },
-    {
-        name:'BAKER Howan',
-        tag:'003small',
-        price:249 ,
-        inCart:0,
-        code:"003"
+        code:"504"
     },
     {
         name:'BAKER Raynolds',
@@ -37,11 +37,11 @@ let products=[
         code:"005"
     },
     {
-        name:'FLIP ',
-        tag:'006small',
-        price:249 ,
+        name:' Flip Deck+Griptape',
+        tag:'501small',
+        price:199,
         inCart:0,
-        code:"006",
+        code:"501",
     },
     {
         name:'FLIP ',
@@ -51,11 +51,11 @@ let products=[
         code:"007"
     },
     {
-        name:'FLIP ',
-        tag:'008small',
-        price:249 ,
+        name:'Flip Deck+Griptape',
+        tag:'500small',
+        price:199,
         inCart:0,
-        code:"008"
+        code:"500"
     }
  
  
