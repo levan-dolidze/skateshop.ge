@@ -200,13 +200,8 @@ if(cartItems && productContainer){
           <span> / ფასი -  ${item.price} ₾ </span>
       </div>
      
-  
-  
       <div class='quantity'>
     
-     
-    
-      
       (<i class="fa fa-shopping-cart" aria-hidden="true"></i>
       <ion-icon name='basket'></ion-icon><span > ${item.inCart}</span> )
      /
