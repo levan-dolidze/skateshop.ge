@@ -1,0 +1,185 @@
+thead{
+  background-color:#20c997;;
+  color: #F8F9F7;
+}
+.mainOrderPage{
+  height:1500px;
+  justify-content: center;
+  height: calc(100%-300px- 250px);
+
+}
+
+.orderTitle{
+    margin:0 auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.orderTable,th,td{
+    border: 1px solid white;
+    padding: 3px;
+    margin: 0 auto;
+    margin-top: 30px;
+    /* width: 600px; */
+    text-align: center;
+    cursor: pointer;
+
+}
+.orderMainDisplay{
+  width: 100%;
+  height: 100%;
+margin-top: 20px;
+margin-left: 5%;
+
+
+}
+
+.orderApplyTitle{
+  text-align: center;
+  background-color:#20c997;;
+color: #F8F9F7;
+width: 100%;
+height: 100%;
+
+}
+.orderApplyTitle p{
+padding: 5px;
+   font-weight: bold;
+  }
+  
+.orderDisplay{
+  background-color: #F8F9F7;
+height: 50%;
+float: left;
+border-radius: 5px;
+margin-left: 7%;
+
+}
+
+.orderApply{
+width: 27%;
+  background-color: #F8F9F7;
+  float: left;
+  margin-left: 30px;
+  border: 1px solid white;
+  
+}
+.orderApplyImage{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+
+.orderApplyBtn {
+  width: 100%
+}
+
+#applyForm
+{
+  margin: 0 auto;
+  width: 83%;
+  
+}
+
+.formfild
+{
+  padding: 5px;
+  width: 100%;
+  border-radius: 5px;
+  border:1px solid  #F8F9F7;
+  outline: none;
+}
+.formgroup
+{
+  margin-top: 2%;
+}
+
+.fromOrderToHome{
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+
+.clearOrderDisplay{
+margin-left:70%
+
+}
+
+
+.messageBox{
+padding: 20px;
+width: 57%;
+height: 100%;
+margin-top: 10%;
+box-shadow: 0 0 8px white;
+overflow: hidden;
+background: #f1f1f1;
+border-radius: 8px;
+z-index:9999;
+text-align: center;
+color: green;
+font-weight: bold;
+
+
+}
+
+.closeButton{
+box-shadow: 0 0 2px white;
+overflow: hidden;
+background: #f1f1f1;
+border-radius: 5px;
+text-align: center;
+margin-top: 5%;
+background: #ffc107;
+outline: none;
+}
+
+.hideDisplay{
+  display: none; 
+  
+}
+.editOrderPageBackground{
+margin-left: 24%;
+  border-radius: 5px;
+
+
+}
+
+@media (max-width: 750px){
+
+   .orderDisplay{
+    width: 100%
+
+
+   }
+   .orderApply{
+     margin-top: 5%;
+     width: 250px;
+ margin:0 auto !important;
+ padding-top: 5%;
+
+
+   }
+   .orderApplyTitle p{
+margin: auto;
+padding: 5px 40px;
+   }
+
+ .orderMainDisplay{
+   position: absolute;
+
+ }
+
+ }
+
+ .orderNow{
+  background: #b02a37;
+   border-radius: 5px;
+   font-size: medium;
+   color: white;
+   width: 100px;
+   height: 35px;
+  
+ }
+ 
