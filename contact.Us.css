@@ -1,0 +1,84 @@
+.contactUsMain {
+    height: calc(100%- 150px- 250px);
+    height: 600px;
+}
+
+#ContactemailNav {
+    color: blue;
+    text-decoration: none;
+    margin-left: 15px;
+
+
+}
+
+#ContacMoblNav {
+    color: blue;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.contactDetails {
+    margin: 5px 10px
+}
+
+.workinghours {
+
+    width: 350px;
+    height: 80px;
+    background-color: honeydew;
+
+
+
+}
+
+.workingHoursItem {
+    color: red;
+}
+
+.orderApplyBtn {
+    width: 100%;
+    margin-top: 3%;
+}
+
+#signup {
+    margin: 0 auto;
+    width: 40%;
+}
+
+.formfild {
+    padding: 4px;
+    width: 100%;
+    border: 1px solid #F8F9F7;
+    outline: none;
+}
+
+.formgroup {
+    margin-top: 1%;
+}
+
+.but {
+    text-align: center;
+}
+
+.hideHtml {
+    display: none;
+}
+
+.contactMessageDiv {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 100px;
+    font-size: x-large;
+
+    overflow: hidden;
+    color: white;
+    text-decoration: white;
+
+    text-align: center;
+
+
+
+}

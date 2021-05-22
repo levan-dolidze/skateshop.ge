@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="ident.css">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="advice.css">
+
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="beforeNav">
+
+    <span class="emailIcon"> <i class="far fa-envelope"></i> </span>
+    <a id="emailNav" href="mailto:l.dolidze11@gmail.com"> EMAIL</a>
+    <span class=phoneIcon> <i class="fas fa-phone-square"></i></span>
+    <span class="phoneNumber">591 880 290</span>
+
+
+  </div>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img class="mainLogo" src="our logo.jpg" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">მთავარი</a>
+          </li>
+          <div class="dropdown">
+            <button class="btn btn-secondary " type="button" aria-expanded="false">
+
+              <a href="about.html"> ჩვენს შესახებ</a>
+            </button>
+
+          </div>
+
+          <div id="test" class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              პროდუქტები
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <li><a class="dropdown-item" href="decks.html">decks</a></li>
+              <li><a class="dropdown-item" href="wheels.html">wheels</a></li>
+              <li><a class="dropdown-item" href="trucks.html">trucks</a></li>
+              <li><a class="dropdown-item" href="complete.html">completes</a></li>
+              <!-- <li><a class="dropdown-item" href="shoes.html">shoes</a></li> -->
+              <!-- <li><a class="dropdown-item" href="others.html">others</a></li> -->
+            </ul>
+          </div>
+          <div class="dropdown">
+            <button type="button" class="btn btn-danger">
+
+              <a href="sale.html">SUPER SALE</a>
+            </button>
+
+          </div>
+          <div class="dropdown">
+            <button class="btn btn-secondary " type="button" aria-expanded="false">
+
+              <a href="galerea.html"> გალერეა</a>
+            </button>
+
+          </div>
+
+
+          <div class="dropdown">
+            <button class="btn btn-secondary active " type="button" aria-expanded="false">
+
+              <a href="advice.html"> რჩევები</a>
+            </button>
+
+          </div>
+          <div class="dropdown">
+            <button class="btn btn-secondary " type="button" aria-expanded="false">
+
+              <a href="contactUs.html"> კონტაქტი</a>
+            </button>
+
+
+          </div>
+        </ul>
+
+
+        <button type="button" class="btn btn-outline-danger" id="clearCartBtn"><i class="fas fa-trash-alt"></i></button>
+        <span class="navbar-text">
+
+          <a href="orderPage.html">
+
+            <span class='totalCostAdvice'></span>
+
+            <class class="fa fa-shopping-cart" aria-hidden="true"></class> <span class='productNumbersAdvice'></span>
+            <!-- <span class="inCart"></span> -->
+
+          </a>
+
+        </span>
+      </div>
+    </div>
+  </nav>
+
+  <main class="adviceMainWheels">
+
+    <div class='adviceSelectAdvice'>
+<div class='adviceBtn'>
+
+      <div class="dropdown">
+        <button type="button" class="btn btn-outline-success">
+          <a href="advice.html">decks </a> </button>
+
+      </div>
+
+
+      <div class="dropdown">
+        <button type="button" class="btn btn-outline-success">
+          <a href="adviceTrucks.html">trucks </a> </button>
+
+      </div>
+
+
+      <div class="dropdown">
+        <button type="button" class="btn btn-outline-success">
+          <a href="adviceWheels.html">wheels </a> </button>
+
+      </div>
+
+      <div class="dropdown">
+        <button type="button" class="btn btn-outline-success">
+          <a href="adviceGriptipes.html">griptipes </a> </button>
+
+      </div>
+
+    </div>
+
+    </div>
+
+
+    <!-- 
+აქამდე -->
+    <div class='adviceContainer'>
+
+
+
+    <div class="adviceForWheels">
+      <h2 class='adviceForWheelsHeader'>Wheels</h2>
+      <div class="adviceForWheelsImage"> <img src="/fotoAdvice/wheel.JPG"
+          alt=""></div>
+      <h5 class="adviceForWheelsTitle">ბორბლების გარეშე სკეიტბორდით სრიალი ცხადია წარმოუდგენელია,ის ერთ ერთი მთავარი
+        შემადგენელი ნაწილია,ამიტომ
+        დეტალურად მოგიყვებით თუ რისგან მზადდება სკეიტბორდის ბორბლები, რა სხვაობაა რბილ და მყარ ბორბლებს შორის,ასევე
+        გაიგებთ ზომის სწორად შერჩევას და მოგაწვდით
+        ინფორმაციას ბორბლის შექმნაში გამოყენებულ ტექნოლოგიების შესახებ
+
+      </h5>
+      <h5 class="adviceForWheelsTitle">სკეიტბორდის ბორბლების მატერია - რისგან მზადდება ის </h5>
+      <p class="adviceForWheelssParagr">უძველესი დროიდან სკეიტბორდის ბორბლები მეტალისგან მზადდებოდა,სინამდვილეში ის
+        როლიკებისთვის იყო განსაზღვრული
+        მაგრამ ისინი მოგვიანებით დაფებზე მოარგეს,საბედნიეროდ 1970 წელს Frank Nasworthy ის გამოგონების წყალობით ურეთანის
+        ბორბლებით შეცვალა.(urethane wheel)
+      </p>
+      <p class="adviceForWheelssParagr"> მას შემდეგ სკეიტბორდის ბორბლები მზადდება პლასტმასის პოლიურეთანისგან.
+        ეს მრავალმხრივი მასალაა და შეიძლება მისგან დამზადდეს სხვადასხვა ხარისხის და სიმტკიცის ბორბლები.
+      </p>
+      <p class="adviceForWheelssParagr">
+        ამასთან ყველა ურეთანი ერთნაერი არ არის და შესაბამისად არც ბორბლებია ერთნაერი,სკეიტბორდის ბორბლების
+        სხვადასხვა ბრენდები მუდმივად ცდილობენ მასალების ახალი ნაზავებით მიიღონ უკეთესი შედეგი,რომ იყოს უფრო გამძლე,
+        უკეთესად სრიალებდეს.
+      </p>
+
+
+      <h5 class="adviceForWheelsTitle">flat spot </h5>
+      <p class="adviceForWheelssParagr">
+        როდესაც ვაკეთებთ powerslide ს ( როდესაც "ვამუხრუჭებთ" ბორდს და ვასრიალებთ 180 გრადუსის რადიუსში),
+        ამ დროს ბორბლებს დიდი დატვირთვა ადგება და შესაძლოა ზედაპირი დაზიანდეს და იდეალურად მრგვალი აღარ იყოს,ეს ხდება
+        ძირითადად რბილ ბობლებზე.
+      </p>
+      <h5 class="adviceForWheelsTitle">standard wheels vs. core wheels </h5>
+      <p class="adviceForWheelssParagr">
+        ძირითადი განსხვავება სკეიტბორდის ბორბლებში არის სტანდარტული და ე.წ "core" ბორბლები,რომელიც ეხება
+        ბორბლის შიგთავსში განსხვავებას სადაც ყენდება საკისარი,სტანდარტულ ბორბალს ორ საკისარს შორის(შიდა და გარე) გამყოფი
+        რომელიც არ აძლებს საშუალებას რომ საკისრები ერთმანეთს მიედოს - აქვს იგივე
+        მასალისგან დამზადებული რაც ბორბალია, ხოლო core ბორბლებს ეს შიგთავსი აქვთ პლასტმასის რაც საშუალებას აძლევს
+        საკისარს რომ უფრო მჭიდროდ ჩაჯდეს შიგთავსში და არ ამოვარდეს,ძირითადად გამოიყენება ლონგბორდებში
+
+      </p>
+
+      <div class='recomTrucksWheelsSizeContainer'>
+        <div class='recomTrucksWheelsSizeImg'><img
+            src="https://www.skatedeluxe.com/blog/wp-content/uploads/2016/12/skateboard-wheels-standard-wheel-core-wheel.svg"
+            alt=""></div>
+
+        <div class='recomTrucksWheelsSizeInfo'>
+
+          <li>1. standart wheels</li>
+          <li>2. core wheels</li>
+
+
+        </div>
+
+      </div>
+
+      <h5 class="adviceForWheelsTitle">როგორ შევარჩიოთ ბორბლები? </h5>
+
+      <p class="adviceForWheelssParagr">
+        როდესაც ვარჩევთ ბორბლებს სკეიტბორდისთვის მნიშვნელოვანია გავითვალისწინოთ ზომა,სიმტკიცე და სიგანე
+
+      </p>
+      <p class="adviceForWheelssParagr">
+        სკეიტბორდის ბორბლები არის განსხვავებული ზომის, ზომა განისაზღვრება დიამეტრებში და დაიამეტრი თავის მხრივ
+        მილიმეტრებში (mm).
+        როგორც წესი ბორბლების ზომა არის 50mm - 59mm ს შორის,
+
+      </p>
+      <div class='differentTrucksWheelsSizeContainer'>
+
+        <div class='differentTrucksWheelsSizeInfo'>
+
+          <li>1. street skateboarding</li>
+          <li>2. All-Around Wheels (Street, Park, Mini-Ramp)</li>
+          <li>3. Vert & Cruising</li>
+          <li>4. Cruising & Longboarding</li>
+
+
+        </div>
+        <div class='differentTrucksWheelsSizeImg'><img
+            src="https://www.skatedeluxe.com/blog/wp-content/uploads/2016/12/skateboard-wheel-size-speed-acceleration.svg"
+            alt=""></div>
+
+        <div class='differentTrucksWheelsSizeSpeed'>
+
+          <ul>1. აჩქარება (Acceleration)</ul>
+          <ul>2. სიჩქარე ( Speed)</ul>
+
+
+        </div>
+
+      </div>
+      <p class="adviceForWheelssParagr">
+        პატარა ბორბლები უფრო სწრაფად ჩქარდება,მსუბუქია და კომპაქტურია,ამასთან მათი მაქსიმალური სიჩქარე უფრო
+        დაბალია,შესაბამისად შედარებით დიდი ზომის ბორბლების
+        მაქსიმალური სიჩქარე უფრო მაღალია, და უკეთესად იტანს არასწორ ზედაპირს
+      </p>
+      <li class="adviceForWheelsTitle">street skateboarding ისთვის გამოიყენება პატარა ზომის 50 -53mm ბორბლები, </li>
+      <li class="adviceForWheelsTitle">პატარა და საშუალო რამპებისთვის რეკომენდირებულია 53-56mm ზომის ბორბლები, </li>
+      <li class="adviceForWheelsTitle">ვერტიკალური სკეიტბორდინგისთვის - 59mm </li>
+
+      <h5 class="adviceForWheelsTitle">ბორბლის რეკომენდირებული ზომა კონკრეტული თრაქსისთვის: </h5>
+
+
+      <p class="adviceForWheelssParagr">
+        ბორბლების შერჩევისას ყურადღება უნდა მივაქციოთ მის ზომას ,ზომა იდეალურად უნდა შეერწყას თრაქსს,ზედმეტად დიდი
+        ბორბლები სრიალის დროს
+        ეხება დაფას, თუ შესაბამისი თრაქსი არ გვიყენია.
+
+      </p>
+      <p class="adviceForWheelssParagr">
+        როგორც მიხვდით, დიდ ბორბლებს ჭირდება მაღალი თრაქსი,ცხადია ამ შემთხვევაში თქვენი სკეიტბორდი ოდნავ მაღალი იქნება,
+        ორი რამ რაც უნდა გახსოვდეთ ასეთი კომპლექტისას:
+      </p>
+      <p class="adviceForWheelssParagr">
+      <ul>1.ახტომისას (Pop off) სკეიტბორდის კუდი (tale)სანამ შეეხება ზედაპირს დიდ მანძილს გადის მაღალ ბორბლებზე,
+        შესაბამისად კუთხე ხდება ციცაბო და ollie ს დროს უფრო მაღალი ნახტომი გამოდის საბოლოოდ.
+        ეს კარგია მაღალი სკეიტერებისათვის ვისაც გრძელი ფეხები და ძალა აქვს მეტი,მომცრო აღნაგობის სკეიტერებისთვის არ არის
+        რეკომენდირებული,რადგან დაამძიმებს სკეიტბორდს.
+      </ul>
+      <ul>2.მაღალ სკეიტბორდზე უფრო მეტად მოგიწევთ მუხლების მოხრა ახტომის დროს, რაც შეიძლება მეტად დამღლელი იყოს</ul>
+
+      </p>
+
+      <p class="adviceForWheelssParagr">
+        თუ თქვენი ბორბლების ზომა არ შეესაბამება თრაქსის სიმაღლეს შეგიძლიათ გამოიყენოთ riser pads რომელიც აამაღლებს
+        სკეიტბორდს,
+        ასევე გაიზრდება მანძილი ბორბალსა და დაფას შორის.
+      </p>
+
+      <div class='recomTrucksWheelsSizeContainer'>
+        <div class='recomTrucksWheelsSizeImg'><img
+            src="https://www.skatedeluxe.com/blog/wp-content/uploads/2016/12/skateboard-truck-size-recommendation-wheels.svg"
+            alt=""></div>
+
+        <div class='recomTrucksWheelsSizeInfo'>
+
+          <ul>1. Truck Size</ul>
+          <ul>2. Wheel Size</ul>
+
+
+
+        </div>
+
+      </div>
+
+      <div class="skateboardWheelsContainer">
+
+        <div class='trucksLowSize'>
+          <h5>low trucks</h5> თუ დაბალ თქარსს იყენებთ გირჩევთ აამალოთ ricer pad ით და ბორბლის მაქსიმალური ზომა
+          რეკმენდირებულია 52mm .
+        </div>
+        <div class="trucksMIDSize">
+          <h5>midd/standard trucks </h5> იმ შემთხვევაში თუ საშუალო/სტანდარტულ თრაქსით სიალებთ ricer pad ის გარეშე -
+          რეკომენდირებულია ბორბლების ზომა 52mm-56mm მდე იყოს.
+        </div>
+        <div class="trucksHighSize">
+          <h5> high trucks</h5>მაღალი თრაქსისთვის ricer pad ის გარეშე გირჩევთ 58mm ზე ზემოთ ზომის ბორბლებს.
+        </div>
+
+      </div>
+
+
+
+
+
+      <h5 class="adviceForWheelsTitle">ბორბლების სიმყარის დონე </h5>
+
+      <p class="adviceForWheelssParagr">
+        კიდევ ერთი კომპონენტი ბორბლების შერჩევისას არის მისი სიმყარე
+
+      </p>
+
+      <h6 class="wheelsHardnessTitle">როგორ აღიწერება სკეიტბორდის ბორბლის სიხისტე</h6>
+      <p class="adviceForWheelssParagr">
+        სკეიტბორდის ბორბლების სიმტკიცე მოცემულია დურომეტრებში (DURO) ერთეულით "A" ეს ე.წ მასშტაბი 100 ბალიანი სისტემით
+        იზომება.სკეიტბორდის ბორბლები 75A - 100A შორის მერყეობს,რაც უფრო მაღალია ეს მაჩვენებელი, მით უფრო მყარია ბორბალი.
+        101A-104A შუალედში ზოგ ბრენდს დამატებული აქვს შკალა "B Scale".
+
+      </p>
+      <h6 class="wheelsHardnessTitle">როგორი სიმტკიცის ბორბლები არის ჩვენთვის მისაღები?</h6>
+      <p class="adviceForWheelssParagr">
+        რბილი ბორბბლები უფრო ადვილად იტანს უსწორმასწორო ზედაპირს,ნაკლებად სრიალებს მაგრამ ნელია,ქვემოთ იხილავთ რომელი
+        სიმყარის ბორბლებია თქვენთვის შესაფერისი
+
+      </p>
+
+      <div class="skateboardWheelsContainer">
+
+        <div class='wheelsLowSize'>
+          <h5>soft wheels | 78A-92A</h5> რბილი ბორბლები შესაფერისია ძალიან უხეშ ზედაპირზე სრიალისთვის,ნელია და
+          powerslides არის რთული .
+        </div>
+        <div class="wheelsMIDSize">
+          <h5>medium hard wheels | 93A-95A</h5>სკეიტბორდის ბორბლები რომელთა სიმტკიცე 93A-95A შუალედშია ოდნავ ხისტია და
+          სწრაფია,ვიდრე რბილი ბორბლები,
+          შესაფერისია ქუჩაში ნაკლებად სწორ ზედაპირზე სასრიალოდ.
+        </div>
+        <div class="wheelsHighSize">
+          <h5> hard wheels |95A-99A</h5>სკეიტბორდის ბორბლები დიაპაზონში 95A-99A შესანიშნავი ბორბლებია
+          ყველასთვის,სკეიტპარკში სასრიალოდ,ასევე
+          ქუჩაში და მინი რამპებზე,ის საკმაოდ სწრაფია.
+        </div>
+        <div class="wheelsHighSizeHard">
+          <h5> very hard wheels |99A-101A&83B-84B</h5>ძალიან მყარი სკეიტბორდის ბორბლები 99A-101A და მეტი შესანიშნავი
+          ბორბლებია გამოცდილი სკეიტერებისთვის,
+          მათი მაღალი სიხისტის გამო სწრაფად სრიალებენ,სწრაფად ჩქარდებიან,მაგრას ჭირდება შესაბამისი სწორი ზედაპირი
+          სასრიალოდ , მაგ:ბეტონი,ქვის ფილები და აშ, უხეშ ზედაპირზე სრიალისას უსიამოვნო შეგრძნება აქვს.
+        </div>
+
+
+      </div>
+
+      <h5 class="adviceForWheelsTitle">სკეიტბორდის ბორბლის ზედაპირზე კონტაქტის არეალი (Contact Patch) </h5>
+
+      <p class="adviceForWheelssParagr">
+        დიამეტრისა და სიხისტის დადგენის შემდეგ ბოლო კრიტერიუმია ბორბლის ზედაპირზე შეხების არეალი ,ანუ ბორლის იმ ნაწილის
+        ზომა რომელიც უშუალოდ
+        ეხება ზედაპირს სრიალისას
+
+      </p>
+      <p class="adviceForWheelssParagr">
+        slim wheels(პატარა) და basic wheels(საბაზისო) ერთმანეთისგან განსხვავდება იმით რომ basic wheels შეხების არეალი
+        აქვს 18-20 მმ,
+        ხოლო slim ის დიაპაზონი შეადგენს 15-17 მილიმეტრს ,პატარა დიაპაზონის მქონე ბორბლები კარგია ტექნიკური სრიალისას
+        ტრიუკებისას, ხოლო შედარებით დიდი გაცილებით მყარია სრიალისას და სტაბილური
+
+      </p>
+
+      <div class='differentTrucksWheelsSizeContainer'>
+
+        <div class='differentTrucksWheelsSizeInfo'>
+
+          <li>1. Diameter</li>
+          <li>2. Contact Patch</li>
+
+
+
+        </div>
+        <div class='differentTrucksWheelsSizeImg'><img
+            src="https://www.skatedeluxe.com/blog/wp-content/uploads/2016/12/skateboard-wheels-contact-patch.svg"
+            alt=""></div>
+
+        <div class='differentTrucksWheelsSizeSpeed'>
+
+          <ul>1. Basic Wheel</ul>
+          <ul>2. Slim Wheel</ul>
+
+
+        </div>
+
+      </div>
+
+
+
+      <div class="bearingRemovalGif">
+        <h6 class="wheelsHardnessTitle">საკისრის მოძრობის მოქნილი ხერხი თრაქსის ღერძით </h6><img
+          src="https://www.skatedeluxe.com/blog/wp-content/uploads/2016/12/skateboard-wheels-remove-bearings.gif"
+          alt="">
+      </div>
+
+      <h5 class="adviceForWheelsTitle">სკეიტბორდის ბორბლის მოვლა </h5>
+      <p class="adviceForWheelssParagr">
+        ყველა სკეიტერს სრიალის თავისი სტილი აქვს, ზოგი იყენებს powerslides ,ამ შემთხვევაში იცვითება ბორბალი,უმჯობესია
+        დროდადრო
+        ბორბლებს ადგილები შეუცვალოთ ამოვატრიალოთ რომ ერთანერად გაიცვითოს
+      </p>
+      <ul>1. მოვხსნათ ბორბალი თრაქსიდან და შეტრიალებული დავაყენოთ უკან</ul>
+      <ul>2. მეორე ვარიანტია გადავანაცვლოთ ბორბლების ადგილები დიაგონალზე მაგალითად წინა მარცხენა ბორბალი გადმოვიტანოთ
+        უკანა მარჯვენა ბორბლის ადგილას და პირიქით </ul>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <p class="source">* წყარო:https://www.skatedeluxe.com/blog/en/wiki/skateboarding/</p>
+    </div>
+
+  </main>
+
+
+
+
+
+
+
+  <div id="backToTopIcon">
+    <a class="test" href="#"><img class="upToTopImage" src="uptotopicon.png" alt=""></a>
+  </div>
+  <footer class="footer">
+  <!-- messanger -->
+  <div id="fb-root"></div>
+  <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        xfbml            : true,
+        version          : 'v7.0'
+      });
+    };
+
+    (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
+  <!-- Your Chat Plugin code -->
+  <div class="fb-customerchat"
+    attribution=setup_tool
+    page_id="104999371302062"
+theme_color="#0084ff"
+logged_in_greeting="გამარჯობა, რით შემიძლია დაგეხმაროთ ?"
+logged_out_greeting="გამარჯობა, რით შემიძლია დაგეხმაროთ ?">
+  </div>
+
+
+
+    <div class='footerLeftDiv'>
+      <h6 class='deliverProducts'>products</h6>
+      <li><a href="decks.html">decks</a></li>
+      <li><a href="wheels.html">wheels</a></li>
+      <li><a href="trucks.html">trucks</a></li>
+      <li><a href="complete.html">completes</a></li>
+      <!-- <li><a href="others.html">others</a></li> -->
+      <h6 class='deliverTerms'><a href="deliverTerms.html">მიწოდების პირობები</a></h6>
+
+
+    </div>
+
+    <div class='footerCenterDiv'>
+      <a href="index.html"><img class='footerLogo' src="footerLogo.png" alt=""></a>
+
+    </div>
+    <div class='footerRightDiv'>
+
+      <div class="fb-page" data-href="https://www.facebook.com/Skateshop.ge/" data-tabs="timeline" data-width="300px"
+        data-height="70" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false"
+        data-show-facepile="true">
+        <blockquote cite="https://www.facebook.com/Skateshop.ge/" class="fb-xfbml-parse-ignore"><a
+            href="https://www.facebook.com/Skateshop.ge/">Skateshop.ge</a></blockquote>
+      </div>
+
+      <div id="social">
+
+        <a href="https://www.linkedin.com/"> <i class="fa fa-linkedin" aria-hidden="trua" id="socialstyle"></i> </i>
+        </a>
+        <a href="https://www.facebook.com/"> <i class="fa fa-facebook" aria-hidden="true" id="socialstyle"></i> </a>
+        <a href="https://www.instagram.com/"> <i class="fa fa-instagram" aria-hidden="true" id="socialstyle"></i> </a>
+        <i style="margin-left: 20px;" class="fa fa-phone-square" aria-hidden="true"> 591 880 290 </i>
+
+
+      </div>
+      <div class="allRightReserved">
+        ©2021 skateshop.ge All Rights Reserved
+      </div>
+    </div>
+
+
+  </footer>
+
+
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/ka_GE/sdk.js#xfbml=1&version=v10.0"
+    nonce="0mhp2oqn"></script>
+
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/9467b0e758.js" crossorigin="anonymous"></script>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
+  <script src="adviceWheels.js"></script>
+</body>
+
+</html>

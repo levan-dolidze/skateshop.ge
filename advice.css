@@ -1,0 +1,527 @@
+.adviceMain{
+    height: calc(100%- 150px- 250px);
+    height: 4500px;
+}
+.adviceMainTrucks{
+    height: calc(100%- 150px- 250px);
+    height: 5400px;
+}
+
+.adviceMainWheels{
+    height: calc(100%- 150px- 250px);
+    height: 4900px;
+}
+.adviceMainGriptipes{
+    height: calc(100%- 150px- 250px);
+    height: 1400px;
+}
+
+.partersContainerTitle{
+    margin-top: 15px;
+}
+
+.wikiTable,.wikiTableDecks,.wikiTableByHigh,.wikiTableWheelsSize{
+margin: 0 auto;
+}
+.wikiTable thead th,td{
+    border:1px solid#cccccc;
+    padding: 6px;
+    text-align: center;
+    
+}
+.wikiTableDecks thead th,td{
+    border:1px solid#cccccc;
+    padding: 6px;
+    text-align: center;
+}
+.wikiTableByHigh thead th,td{
+    border:1px solid#cccccc;
+    padding: 6px;
+    text-align: center; 
+}
+.wikiTableWheelsSize thead th,td{
+    border:1px solid#cccccc;
+    padding: 6px;
+    text-align: center;
+}
+#wikitbodyWheelsSize thead th,td{
+    border:1px solid#cccccc;
+    padding: 6px;
+    text-align: center; 
+}
+.wikiTableByHigh{
+    margin-top: 30px;
+}
+.wikiTableWheelsSize{
+    margin-top: 30px;
+}
+#wikitbodyByHigh thead th,td{
+    border:1px solid#cccccc;
+    padding: 6px;
+    text-align: center;  
+}
+#wikitbodyWheelsSize tr:nth-child(even){
+    background-color:#cccccc ;
+}
+#wikitbodyWheelsSize tr:hover{
+    background-color: rgb(230, 224, 215);
+    color:black;
+}
+#wikitbodyByHigh tr:nth-child(even){
+    background-color:#cccccc ;
+}
+#wikitbody tr:nth-child(even){
+    background-color:#cccccc ;
+ 
+}
+#wikitbodyByHigh tr:hover{
+    background-color: rgb(230, 224, 215);
+    color:black;
+
+}
+
+#wikitbody tr:hover{
+    background-color: rgb(230, 224, 215);
+    color:black;
+
+}
+#wikitbodyDecks tr:nth-child(even){
+    background-color:#cccccc ;
+}
+#wikitbodyDecks tr:hover{
+    background-color: rgb(230, 224, 215);
+    color:black;
+
+}
+
+
+.adviceContainer{
+margin-top: 30px;
+}
+.seeMore{
+margin-left: 20px;
+    color: #b02a37;
+    cursor: pointer;
+}
+.adviceForDecks{
+    background-color: white;
+    width: 75%;
+    height: 100%;
+    margin-left: 20px;
+
+}
+
+
+
+.adviceForTrucks{
+margin-top: 20px;
+    width: 75%;
+    height: 100%;
+    margin-left: 20px;
+    background-color: white;
+}
+.adviceForWheels{
+    background-color: white;
+    margin-top: 20px;
+    width: 75%;
+    height: 100%;
+    margin-left: 20px;
+}
+.adviceForGrips{
+    background-color: white;
+    margin-top: 20px;
+    width: 75%;
+    height: 100%;
+    margin-left: 20px;
+}
+
+.adviceForTrucksHeader,.adviceForWheelsHeader,.adviceForDecksHeader,.adviceForGripsHeader{
+    padding: 10px 10px;
+ color: #1d3e93;
+}
+.adviceForTrucksParagr,.adviceForDecksParagr,.adviceForWheelsParagr,.adviceForWheelssParagr,.adviceForGripssParagr{
+    padding: 2px 10px;
+  
+}
+.adviceForDecksTitleHigh{
+    color: #1d3e93;
+    margin-top: 25px;
+    padding: 2px 10px;
+}
+.adviceForDecksTitle,.adviceForTrucksTitle,.adviceForWheelsTitle{
+    padding: 2px 10px;
+    margin-top: 5px;
+    color: #1d3e93;
+}
+.adviceForDecksImage img,.adviceForTrucksImage img,.adviceForWheelsImage img,.adviceForGripsImage img{
+width: 100%;
+height: 400px;
+object-fit: cover;
+}
+
+.deckAdviceInfoImgDiv{
+    width: 250px;
+    height: 150px;
+    margin-left: 37%;
+    object-fit: cover;
+}
+.deckAdviceInfoImg{
+    width: 100%;
+    height: 100%;
+   
+
+  
+}
+.source{
+    margin-left: 20px;
+    color:rgb(189, 189, 189);
+    font-size: small;
+}
+.truckDescriptionConteiner{
+    display: flex;
+width: 100%;
+justify-content: center;
+
+}
+.truckDescriptionFoto{
+    width: 50%;
+    height: 50%;
+}
+.truckDescriptionFoto img{
+    
+
+height: 250px;
+object-fit: cover;
+margin-left: 150px;
+
+}
+.truckDetaleDescriptionConteiner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.recomTrucksWheelsSizeContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.differentTrucksWheelsSizeContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+
+}
+.differentTrucksWheelsSizeInfo{
+width: 30%;
+}
+.differentTrucksWheelsSizeImg{
+    width: 30%;
+    margin-left: 20px;
+
+}
+.bearingRemovalGif{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.differentTrucksWheelsSizeImg img{
+width: 100%
+
+}
+.differentTrucksWheelsSizeSpeed{
+
+    color: #b02a37;
+    width: 30%;
+  
+    margin-left: 10px;
+    margin-top: 10%;
+}
+
+
+
+
+.recomTrucksWheelsSizeImg img{
+width: 500px;
+
+    
+}
+.recomTrucksWheelsSizeInfo{
+    margin-left: 100px;
+    margin-top: 85px;
+}
+
+.skateboardWheelsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+
+}
+.trucksLowSize{
+-moz-box-shadow:    inset 0 0 5px #cccccc ;
+-webkit-box-shadow: inset 0 0 5px #cccccc ;
+box-shadow:         inset 0 0 5px #cccccc ;
+border-radius: 5px;
+height: 190px;
+width: 200px;
+margin-left: 30px;
+margin-top: 20px;
+}
+.trucksLowSize h5{
+    margin: 5px 5px; 
+    color: #1d3e93;
+}
+.trucksMIDSize{
+    -moz-box-shadow:    inset 0 0 5px #cccccc ;
+    -webkit-box-shadow: inset 0 0 5px #cccccc ;
+    box-shadow:         inset 0 0 5px #cccccc ;
+    border-radius: 5px;
+    height: 235px;
+    width: 200px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.trucksMIDSize h5{
+    margin: 5px 5px; 
+    color: #1d3e93;
+}
+.trucksHighSize{
+    -moz-box-shadow:    inset 0 0 5px #cccccc ;
+    -webkit-box-shadow: inset 0 0 5px #cccccc ;
+    box-shadow:         inset 0 0 5px #cccccc ;
+    border-radius: 5px;
+    height: 150px;
+    width: 200px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.trucksHighSize h5{
+    margin: 5px 5px; 
+    color: #1d3e93;
+}
+.wheelsHardnessTitle{
+ text-align: center;
+ color: #1d3e93;
+}
+.BASEPLATE{
+    -moz-box-shadow:    inset 0 0 5px #cccccc ;
+   -webkit-box-shadow: inset 0 0 5px #cccccc ;
+   box-shadow:         inset 0 0 5px #cccccc ;
+   border-radius: 5px;
+   height: 235px;
+   width: 200px;
+margin-left: 30px;
+margin-top: 20px;
+}
+.BASEPLATE P {
+    margin: 5px 5px;
+    
+}
+.KINGPIN{
+    -moz-box-shadow:    inset 0 0 5px #cccccc ;
+   -webkit-box-shadow: inset 0 0 5px #cccccc ;
+   box-shadow:         inset 0 0 5px #cccccc ;
+   border-radius: 5px;
+   width: 200px;
+   height: 300px;
+   margin-left: 30px;
+margin-top: 20px;
+
+}
+.KINGPIN p{
+    margin: 5px 5px;
+}
+.HANGER{
+    -moz-box-shadow:    inset 0 0 5px #cccccc ;
+    -webkit-box-shadow: inset 0 0 5px #cccccc ;
+    box-shadow:         inset 0 0 5px #cccccc ;
+    border-radius: 5px;
+    width: 200px;
+    margin-left: 30px;
+margin-top: 20px;
+}
+.HANGER p {
+    margin: 5px 5px;
+}
+.BUSHINGS{
+    -moz-box-shadow:    inset 0 0 5px #cccccc ;
+    -webkit-box-shadow: inset 0 0 5px #cccccc ;
+    box-shadow:         inset 0 0 5px #cccccc ;
+    border-radius: 5px;
+    width: 200px;
+    margin-left: 30px;
+margin-top: 20px;
+height: 325px;
+}
+.BUSHINGS p {
+    margin: 5px 5px;
+}
+
+.AXLE{
+    -moz-box-shadow:    inset 0 0 5px #cccccc ;
+    -webkit-box-shadow: inset 0 0 5px #cccccc ;
+    box-shadow:         inset 0 0 5px #cccccc ;
+    border-radius: 5px;
+    width: 200px;
+    margin-left: 30px;
+margin-top: 20px;
+height: 230px;
+}
+.AXLE P{
+    margin: 5px 5px;
+}
+.AXLENUTS{
+    -moz-box-shadow:    inset 0 0 5px #cccccc ;
+    -webkit-box-shadow: inset 0 0 5px #cccccc ;
+    box-shadow:         inset 0 0 5px #cccccc ;
+    border-radius: 5px;
+    width: 200px;
+    margin-left: 30px;
+   margin-top: 20px;
+   height: 140px;
+}
+.AXLENUTS p{
+    margin: 5px 5px;
+}
+.WASHER{
+    -moz-box-shadow:    inset 0 0 5px #cccccc ;
+    -webkit-box-shadow: inset 0 0 5px #cccccc ;
+    box-shadow:         inset 0 0 5px #cccccc ;
+    border-radius: 5px;
+    width: 200px;
+    margin-left: 30px;
+   margin-top: 20px;
+   height: 260px;
+}
+.WASHER p {
+    margin: 5px 5px; 
+}
+.SPEEDRINGS{
+    -moz-box-shadow:    inset 0 0 5px #cccccc ;
+    -webkit-box-shadow: inset 0 0 5px #cccccc ;
+    box-shadow:         inset 0 0 5px #cccccc ;
+    border-radius: 5px;
+    width: 200px;
+    margin-left: 30px;
+   margin-top: 20px;
+   height: 190px;
+}
+.SPEEDRINGS p{
+    margin: 5px 5px; 
+ 
+}
+.wheelsLowSize{
+    -moz-box-shadow:    inset 0 0 5px #cccccc ;
+    -webkit-box-shadow: inset 0 0 5px #cccccc ;
+    box-shadow:         inset 0 0 5px #cccccc ;
+    border-radius: 5px;
+    width: 250px;
+    margin-left: 30px;
+   margin-top: 20px;
+   height: 150px;
+}
+.wheelsLowSize h5{
+    margin: 5px 5px; 
+    color: #1d3e93;
+}
+.wheelsMIDSize{
+    -moz-box-shadow:    inset 0 0 5px #cccccc ;
+    -webkit-box-shadow: inset 0 0 5px #cccccc ;
+    box-shadow:         inset 0 0 5px #cccccc ;
+    border-radius: 5px;
+    width: 250px;
+    margin-left: 30px;
+   margin-top: 20px;
+   height: 250px;
+}
+.wheelsMIDSize h5{
+    margin: 5px 5px; 
+    color: #1d3e93;
+}
+.wheelsHighSize{
+    -moz-box-shadow:    inset 0 0 5px #cccccc ;
+    -webkit-box-shadow: inset 0 0 5px #cccccc ;
+    box-shadow:         inset 0 0 5px #cccccc ;
+    border-radius: 5px;
+    width: 250px;
+    margin-left: 30px;
+   margin-top: 20px;
+   height:200px;
+}
+.wheelsHighSize h5{
+    margin: 5px 5px;
+    color: #1d3e93; 
+}
+.wheelsHighSizeHard{
+    -moz-box-shadow:    inset 0 0 5px #cccccc ;
+    -webkit-box-shadow: inset 0 0 5px #cccccc ;
+    box-shadow:         inset 0 0 5px #cccccc ;
+    border-radius: 5px;
+    width: 810px;
+    margin-left: 30px;
+   margin-top: 20px;
+   height: 150px;
+}
+.wheelsHighSizeHard h5{
+    margin: 5px 5px; 
+    color: #1d3e93;
+}
+
+.adviceSelectAdvice{
+
+    /* width: 100%; */
+
+    position: sticky;
+    top: 270px;
+    width: 150px;
+    float: right;
+
+}
+.adviceBtn{
+    position: absolute;
+    
+}
+.adviceButtons{
+    width: 75%;
+
+}
+.btn-outline-success{
+    width: 100px;
+    margin-top: 5px;
+}
+.btn-outline-success a{
+    color: #1d3e93;
+   
+
+}
+
+@media (max-width: 750px){
+    .adviceForDecksImage img,.adviceForTrucksImage img,.adviceForWheelsImage img,.adviceForGripsImage img{
+   width: 100%;
+   height: 100px;
+ 
+     }
+     .truckDescriptionFoto{
+ padding-right: 350px;
+
+
+     }
+     .truckDescriptionFoto img{
+        margin:0 auto;
+      
+
+     }
+   .truckDescriptionParts{
+     display: none;
+   }
+    .deckAdviceInfoImgDiv{
+        padding-right: 170px;
+    }
+   
+ 
+    }

@@ -1,0 +1,44 @@
+.deliverTermsMain{
+    height: calc(100%- 150px- 250px);
+   
+}
+.partersContainerTitle{
+    margin-top: 15px;
+}
+.partersContainerIcon{
+    margin-right: 10px;
+    color: #1d3e93;
+}
+.deliverTermsContainer{
+  background-color: white;
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.deliverTermsDiv{
+    width: 100%;
+    height: 23%;
+    margin-top: 20px;
+
+}
+
+.exchangeDiv {
+    width: 100%;
+    height: 40%;
+    border:1px solid  #F8F9F7;
+}
+.returnDiv{
+    width: 100%;
+    height: 42%;
+    border:1px solid  #F8F9F7;
+}
+.deliverTermsHeader{
+padding: 10px;
+font-weight: bold;
+color: #1d3e93;
+}
+.deliverTermsbullets{
+    margin-top: 20px;
+}

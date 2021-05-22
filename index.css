@@ -1,0 +1,121 @@
+
+.brikoramaLogo,.gorgiaLogo{
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+
+}
+
+.partersContainer,.partersContainerTitle,.productsTitleOnHomePage{
+text-align: center;
+margin-top: 10px;
+
+
+}
+.partersContainer{
+justify-content: flex;
+ margin-top: 15px;
+  
+}
+.partersContainer{
+    height: 350px;
+}
+
+
+
+.carousel-item{
+    cursor: pointer;
+}
+.aboutUsMainPage{
+    width: 80%;
+    height: 45%;
+    margin:0 auto;
+    margin-top: 15px;
+    border-radius: 5px;
+
+
+}
+
+
+
+.ourText iframe {
+    height: 100%;
+    width: 100%;
+}
+@media (max-width: 750px){
+#carouselExampleCaptions,#carouselExampleSlidesOnly,.partersContainerTitle,.productsTitleOnHomePage{
+      display: none;
+    }
+  }
+
+
+#mainIndex{
+
+    height:3000px;
+    justify-content: center;
+    height: calc(100%-300px- 150px);
+  
+
+}
+
+
+.navbar-text{
+    margin-top:14px;
+    width: 130px;
+ 
+}
+
+
+.statement{
+    margin-right: 30px;
+    width:260px;
+    height: 390px;
+    border: 1px solid white;
+    padding: 0px,5px;
+    overflow: hidden;
+    border-radius: 5px;
+    margin-top: 10px;
+
+}
+
+.statementImg {
+
+width:100%;
+height: 70%;
+object-fit: cover;
+cursor: pointer;
+border-width: 1px ;
+border-color: white;
+border-top-style: solid;
+border-bottom-style: solid;
+background-size: 100%;
+background-position: center;
+background-repeat: no-repeat;
+cursor: pointer;
+background-color: white;
+}
+.statementImg:hover   {
+  
+    background-size: 175%;
+
+}
+
+.productPrice,.description,.statementTitle{
+    height: 10px;
+}
+
+
+.productPrice{
+    color: #1d3e93;
+    font-weight: bold;
+}
+.description{
+    color:rgb(134, 133, 133);
+    font-size: small;
+}
+.placeholder{
+    color:white;
+}
+
+
+

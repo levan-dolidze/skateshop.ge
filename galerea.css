@@ -1,0 +1,36 @@
+
+
+.partnersMain{
+    height: calc(100%- 150px- 250px);
+    height: 2000px;
+}
+.partersContainerTitle{
+    margin-top: 10px;
+}
+.gallery{
+    text-align: center;
+    margin: 10px 50px;
+    cursor: pointer;
+}
+.videoGallery{
+    text-align: center;
+    margin-top: 20px;
+
+}
+.videoGallery iframe{
+    padding: 5px;
+}
+
+.gallery img{
+    width: 200px;
+    object-fit: cover;
+    padding: 5px;
+    transition: 0.2s;
+}
+.gallery img:hover{
+    transform: scale(1.1);
+}
+
+.carousel-item{
+    height: 300px;
+}

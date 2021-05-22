@@ -1,0 +1,361 @@
+
+body{
+  background-color:  #F5F6F7;
+  font-family: 'Roboto', sans-serif;
+  margin:0;
+  padding:0;
+  text-transform:capitalize;
+
+
+}
+
+html{
+   scroll-behavior: smooth;
+
+}
+.navbar {
+
+    position:sticky;
+    top: 0px;
+    box-shadow: 3px 3px 3px 3px #f1ebeb;
+    width: 100%;
+
+    
+    
+    
+    }
+
+
+.beforeNav{
+    background-color: #333;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+
+}
+.beforeNav, .fa-envelope, .fa-phone-square{
+    color: white;
+    
+}
+#emailNav{
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+  
+ 
+}
+
+.mainLogo{
+    width: 100px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 5px;
+
+}
+
+
+.phoneNumber,.phoneIcon,.emailIcon{
+    margin-left: 15px;
+}
+
+.navbar-nav{
+    margin-left: 1%;
+
+}
+
+.carousel-inner,.caruselImg{
+    height: 400px;
+object-fit: cover;
+width:100%;
+margin-top: 20px;
+
+    
+}
+
+#backToTopIcon {
+text-align: right;
+margin-right: 15px;
+
+
+}
+
+.input-group {
+    width: 500px;
+    cursor:pointer;
+    margin:0 auto;
+    height: 35px;
+}
+.searchInput{
+    width: 300px;
+    margin-top: 6px;
+background-color: #333;
+color: white;
+
+}
+
+.searchButton{
+    width: 70px;
+    height: 35px;
+    margin-top: 8px;
+  
+}
+
+.navbar-text{
+    background-color:#ffc107;
+    width: 100%;
+    height: 40px;
+  margin:15px;
+
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+
+}
+
+.dropdown-menu{
+border-radius: 5px;
+background-color: #b2c8fc;
+width: 250px;
+}
+.navbar-text a{
+    text-decoration:none;
+}
+
+@media (max-width: 750px){
+    .emailIcon,.phoneIcon,.phoneNumber,#emailNav,.footer,#backToTopIcon {
+      display: none;
+    }
+  }
+
+  @media (max-width: 750px){
+   .input-group {
+   padding-left: 55px;
+
+    }
+    .searchInput{
+        width: 250px;
+    }
+    .searchButton{
+        width: 30px;
+    }
+    .mainLogo{
+        width: 50px;
+        height: 50px;
+  
+    }
+  }
+ 
+#carouselExampleCaptions{
+    align-self: flex-start
+}
+.dropdown{
+   padding: 0px 5px
+}
+.nav-link:hover{
+    background-color:#b2c8fc;
+    border-radius: 5px;
+    outline: none;
+   
+
+}
+
+.dropdown{
+    margin-left: 5px;
+   
+}
+.dropdown a{
+    text-decoration: none;
+    color:white;
+
+}
+
+
+#test .dropdown-item{
+color: black;
+}
+
+.footer{
+    background-color: white;
+    width: 100%;
+    height: 300px;
+
+  }
+
+#social{
+
+
+    text-decoration:none;
+ margin-top: 40px;
+
+    
+    }
+    #social .fa{
+        color: black;
+        font-size: 20px
+    }
+   
+    
+    
+    #socialstyle {
+      
+     padding-left: 20px;
+        
+       
+
+    }
+    
+    #social a{
+        text-decoration:none;
+
+    }
+    #social a i {
+       
+        
+        transition: .6s;
+        box-shadow: 0 5px 4px rgba(0,0,0.6s);
+        color: black;
+       
+        
+    
+    }
+    #social a i:hover{
+        transform:translate(0,-15px);
+    }
+  
+.nav-item{
+    width: 80px;
+    text-align: center;
+   
+}
+ 
+    
+
+   
+
+
+    .upToTopImage{
+        margin-bottom: 10px;
+        margin-right: 10px;
+        border-radius: 5px;
+        width: 50px;
+        
+    }
+    .addToCartBtn{
+        width: 260px;
+        height:30px;
+    
+    }
+    #clearCartBtn{
+        margin-right: 5px;
+    }
+
+ 
+    .footerRightDiv{
+        float: right;
+        margin-top: 25px;
+        margin-right: 75px;
+        width: 300px;
+      
+ 
+    }
+    .allRightReserved{
+        padding-top: 40px;
+
+    }
+    .footerLeftDiv{
+        width: 300px;
+        float:left;
+        margin-top: 25px;
+        list-style: none;
+        margin-left: 75px;
+  
+    }
+    .footerLeftDiv, li a{
+        text-decoration: none;
+        /* color:#bb2d3b; */
+        color: black;
+    }
+    .deliverTerms a{
+        text-decoration: none;
+        color: black;
+
+    }
+    .deliverProducts{
+        color: #1d3e93;
+    }
+     .footerCenterDiv{
+        width: 300px;
+        float:left;
+        margin-top: 25px;
+        list-style: none;
+        margin-left: 75px;
+       text-align: center;
+    }
+    .footerLogo{
+        width: 30%;
+        align-items: center;
+        cursor: pointer;
+    
+        
+    }
+.footerCenterDiv{
+    width: 30%;
+}
+    #carouselExampleCaptions,#carouselExampleSlidesOnly{
+        z-index: -1;
+    }
+    #carouselExampleSlidesOnly{
+        text-align: center;
+        height: 250px;;
+        justify-content: center;
+    }
+    #carouselExampleSlidesOnly{
+        height: 200px;
+    }
+    .totalCostPartners,.productNumbersPartners,.totalCostAbout,.productNumbersAbout,.totalCostAdvice,.productNumbersAdvice,.totalCostContact,.productNumbersContact,.totalCostSale,.productNumbersSale,.totalCostIndex,.productNumbersIndex,
+    .totalCostDecks,.productNumbersDecks,.totalCostTrucks,.productNumbersTrucks,.totalCostWheels,.productNumbersWheels,.totalCostComplete,.productNumbersComplete{
+        margin-right: 5px;
+        font-weight: bold;
+        font-size: 15px;
+
+    }
+    .productList,.deckList,.saleList,.wheelsList,.trucksList,.completeList{
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    
+    .saleProduct{
+        width: 20px;
+        height: 10px;
+        background-color:#dc3545 ;
+        color: white;
+ 
+
+    }
+    .oldPriceSale{
+        text-decoration:line-through;
+        color:#dc3545;
+   
+    }
+
+ #fb-root{
+     width: 250px;
+ }
+
+ .sortingSelect{
+    padding:0px 7% 1%;
+ }
+ .sortingSelect select{
+    height: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+ }
