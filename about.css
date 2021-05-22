@@ -1,6 +1,5 @@
 .aboutMain{
     height: calc(100%- 150px- 250px);
-    height: 1000px;
     background-image: url('our\ logo.jpg');
     background-color:#F5F6F7;
     background-blend-mode: screen;
