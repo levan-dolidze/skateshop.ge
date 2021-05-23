@@ -1,5 +1,3 @@
-
-
 const productList = document.querySelector(".productList");
 const searchBtn = document.querySelector(".searchButton");
 const searchInput = document.querySelector(".searchInput");
@@ -104,16 +102,6 @@ if(a.price>b.price){
 
 
 
-
-
-
-
-
-
-
-
-
-
 //searching function
 function searchFunctionOnKeyPress() {
 
@@ -128,16 +116,17 @@ function searchFunctionOnKeyPress() {
       addToCartPerfomance()
       return;
     }
-    const filtredArray = statementsArray.filter((statement) => {
+ const filtredArray = statementsArray.filter((statement) => {
 
       return statement.title.toLowerCase().includes(searchInput.value) || statement.title.toLocaleUpperCase().includes(searchInput.value);
 
 
 
     });
+   
     appendAllStatements(filtredArray);
-    addToCartPerfomance()
-
+  
+    addToCartPerfomanceFiltred(filtredArray)
 
 
   });
@@ -162,10 +151,11 @@ function searchFunctionOnClick() {
       return statement.title.toLowerCase().includes(searchInput.value) || statement.title.toLocaleUpperCase().includes(searchInput.value);
 
     });
+
     appendAllStatements(filtredArray);
-
-
-    addToCartPerfomance()
+    
+  
+    addToCartPerfomanceFiltred(filtredArray)
 
 
   });
@@ -229,8 +219,26 @@ function zoomFunctionleave() {
 // function navigation (){
 //   window.location.replace("contactUs.html");
 // }
+function addToCartPerfomanceFiltred(data) {
 
 
+  const addToCartBtn = document.querySelectorAll('.addToCartBtn');
+
+  for (let i = 0; i < addToCartBtn.length; i++) {
+    addToCartBtn[i].addEventListener('click', () => {
+
+      //  localStorage.setItem("levan"+i, JSON.stringify(statementsArray[i]));
+      //   const  test = JSON.parse(localStorage.getItem("levan"+i));
+
+      cartNubers(data[i])
+      totalCost(data[i])
+      addUserToTable(data[i])
+
+
+    })
+  }
+}
+addToCartPerfomanceFiltred()
 // add to cart function 
 function addToCartPerfomance() {
 
@@ -358,8 +366,8 @@ const addUserToTable = (product) => {
   // let productAmount=document.createElement('td');
   // productAmount.textContent=1
 
-  row.append(productImage, productTitle, productQuantity, productPrice);
-  orderTbody.appendChild(row);
+  // row.append(productImage, productTitle, productQuantity, productPrice);
+  // orderTbody.appendChild(row);
 
 }
 
@@ -416,28 +424,3 @@ function clearCart() {
 clearCart();
 onloadCartCost();
 onloadCartNumbers();
-
-
-//sort by price
-// const arrp=[]
-// sortProducts.addEventListener('click',function(){
-//  for (let index = 0; index < statementsArray.length; index++) {
-// arrp.push(statementsArray[index].price)
-
-// arrp. sort(function(a, b){return a-b});
-
-//  }
-//  console.log(arrp)
-// })
-
-
-
-
-
-
-
-
-
-
-
-
