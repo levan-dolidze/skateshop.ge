@@ -1,8 +1,8 @@
 .aboutMain{
     height: calc(100%- 150px- 250px);
-    /* background-image: url('our\ logo.jpg');
+    background-image: url('our\ logo.jpg');
     background-color:#F5F6F7;
-    background-blend-mode: screen; */
+    background-blend-mode: screen;
 
 }
 .partersContainerTitle{
