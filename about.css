@@ -9,10 +9,16 @@
 .partersContainerTitle{
     margin-top: 110px;
 }
-.aboutUsText {
+.aboutUsText,.aboutUsTextTitle,.aboutUsTextWhy {
     padding: 15px;
  
     
+}
+.aboutUsTextTitle{
+    color: black;
+}
+.aboutUsTextWhy{
+    color: #b02a37;
 }
 
 .ourLogo{
@@ -25,6 +31,7 @@
     .ourLogo img{
         height: 100%;
         width: 100%;
+
         object-fit: cover;
    
   
