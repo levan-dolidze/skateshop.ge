@@ -15,7 +15,7 @@ const statement9= new Statement('Flip  <span class="saleProduct">sale 30% </span
 const statement10= new Statement('Flip  <span class="saleProduct">sale 30% </span>', "./productFotoAll/flipBlue.png", "size: 7.75x31.25", "<span class='oldPriceSale'>250</span>", 175, "არჩევა", 0, "flipBlueSale");
 const statement11= new Statement('Independent Hollow Forged', "./productFotoAll/101large.jpg", "Hollow size: 139 Standard", "", 179, "არჩევა", 0, "IndependentTrucksRed");
 const statement12= new Statement('Independent Thrasher Trucks', "./productFotoAll/100large.jpg", "Hollow size: 139 Standard", "", 179, "არჩევა", 0, "IndependentTrucksThrasher");
-const statement13= new Statement('Independent Hollow Forged ', "./productFotoAll/102large.jpg", "size:139 Stage 11 matte black ", "", 179, "არჩევა", 0, "IndependentTrucksBlack");
+// const statement13= new Statement('Independent Hollow Forged ', "./productFotoAll/102large.jpg", "size:139 Stage 11 matte black ", "", 179, "არჩევა", 0, "IndependentTrucksBlack");
 const statement14= new Statement('Spitfire Formula Four ', "./productFotoAll/200large.jpg", "size:53mm ", "", 119, "არჩევა", 0, "spitfireBlue53");
 const statement15= new Statement('Spitfire Formula Four ', "./productFotoAll/202large.jpg", "Lacey Baker size:51mm ", "", 119, "არჩევა", 0, "spitfireBaker51");
 const statement16= new Statement('Spitfire Formula Four ', "./productFotoAll/203large.jpg", "red size:53mm ", "", 119, "არჩევა", 0, "spitfirered53");
@@ -25,7 +25,7 @@ const statement18= new Statement('Spitfire Formula Four ', "./productFotoAll/205
 
 
 
-const statementsArray = [statement1, statement2, statement3, statement4,statement5,statement6,statement7,statement8,statement9,statement10,statement11,statement12,statement13,statement14,statement15,statement16,statement17,statement18];
+const statementsArray = [statement1, statement2, statement3, statement4,statement5,statement6,statement7,statement8,statement9,statement10,statement11,statement12,statement14,statement15,statement16,statement17,statement18];
 
 
 const appendStatement = (statement) => {

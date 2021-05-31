@@ -4,8 +4,8 @@ const trucksList = document.querySelector(".trucksList");
 const price = "ფასი";
 const statement50= new Statement('Independent Hollow Forged', "./productFotoAll/101large.jpg", "Hollow size: 139 Standard", "", 179, "არჩევა", 0, "IndependentTrucksRed");
 const statement51= new Statement('Independent Thrasher Trucks', "./productFotoAll/100large.jpg", "Hollow size: 139 Standard", "", 179, "არჩევა", 0, "IndependentTrucksThrasher");
-const statement52= new Statement('Independent Hollow Forged ', "./productFotoAll/102large.jpg", "size:139 Stage 11 matte black ", "", 179, "არჩევა", 0, "IndependentTrucksBlack");
-const statementsArrayTrucks = [statement50, statement51, statement52];
+// const statement52= new Statement('Independent Hollow Forged ', "./productFotoAll/102large.jpg", "size:139 Stage 11 matte black ", "", 179, "არჩევა", 0, "IndependentTrucksBlack");
+const statementsArrayTrucks = [statement50, statement51];
 
 // const inCart = document.querySelector('.inCart');
 const appendStatementTrucks = (statement) => {
