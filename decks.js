@@ -4,19 +4,19 @@ const searchBtnDecks = document.querySelector(".btn-success");
 const searchInputDeck = document.querySelector('.searchInputDeck')
 
 const price = "ფასი";
-const statement10 = new Statement('Element Wine Leaf 92 deck', "./productFotoAll/elementLeaf.jpg", "size: 8.125x31.75", "", 250, "არჩევა", 0, "elementLeaf");
-const statement11 = new Statement('Element julian davidson deck', "./productFotoAll/elementJulianDavidson.png", "size: 8.0x31.75", "", 250, "არჩევა", 0, "elementJulianDavidson");
-const statement12 = new Statement('Baker Figgy Brand Name Blue Deck ', "./productFotoAll/bakerFiggy.jpg", " size: 8.125x31.75", "", 250, "არჩევა", 0, "bakerFiggy");
-const statement13 = new Statement('Baker Tyson Peterson  name deck', "./productFotoAll/bakerTyson.jpg", "size: 8.125x31.75", "", 250, "არჩევა", 0, "bakerTyson");
-const statement14 = new Statement('Baker Brand Logo deck', "./productFotoAll/bakerBrandLogoRed.jpg", "size: 8.125x31.75", "", 250, "არჩევა", 0, "bakerBrandLogoRed");
-const statement15= new Statement('Baker Skateboards Green Deck', "./productFotoAll/bakerReynoldsGreen.jpg", "size: 8.125x31.75", "", 250, "არჩევა", 0, "bakerReynoldsGreen");
-const statement16= new Statement('Tom Penny Deck', "./productFotoAll/tomPennyFlip.png", "size: 8.0x 31.5", "", 250, "არჩევა", 0, "tomPennyFlip");
-const statement17= new Statement('Baker deck', "./productFotoAll/bakerBlueDark.png", "size: 8.125x31.75", "", 250, "არჩევა", 0, "bakerBlueDark");
-const statement18= new Statement('Flip  <span class="saleProduct">sale 30% </span> ', "./productFotoAll/flieBlueDark.png", "size: 8.0x31.25", "<span class='oldPriceSale'>250</span>", 175, "არჩევა", 0, "flieBlueDarkSale");
-const statement19= new Statement('Flip  <span class="saleProduct">sale 30% </span>', "./productFotoAll/flipBlue.png", "size: 7.75x31.25", "<span class='oldPriceSale'>250</span>", 175, "არჩევა", 0, "flipBlueSale");
+const statement20 = new Statement('Element deck & grip <span class="saleProduct">sale 12% </span> ', "./productFotoAll/elementLeaf.jpg", "size: 8.125x31.75", "<span class='oldPriceSale'>250</span>", 220, "არჩევა", 0, "elementLeaf");
+const statement21= new Statement('Element deck & grip <span class="saleProduct">sale 12% </span>', "./productFotoAll/elementJulianDavidson.png", "size: 8.0x31.75", "<span class='oldPriceSale'>250</span>", 220, "არჩევა", 0, "elementJulianDavidson");
+const statement22 = new Statement('Baker deck & grip <span class="saleProduct">sale 12% </span> ', "./productFotoAll/bakerFiggy.jpg", " size: 8.125x31.75", "<span class='oldPriceSale'>250</span>", 220, "არჩევა", 0, "bakerFiggy");
+const statement23 = new Statement('Baker deck & grip <span class="saleProduct">sale 12% </span>', "./productFotoAll/bakerTyson.jpg", "size: 8.125x31.75", "<span class='oldPriceSale'>250</span>", 220, "არჩევა", 0, "bakerTyson");
+const statement24 = new Statement('Baker deck & grip <span class="saleProduct">sale 12% </span>', "./productFotoAll/bakerBrandLogoRed.jpg", "size: 8.125x31.75", "<span class='oldPriceSale'>250</span>", 220, "არჩევა", 0, "bakerBrandLogoRed");
+const statement25= new Statement('Baker deck & grip <span class="saleProduct">sale 12% </span>', "./productFotoAll/bakerReynoldsGreen.jpg", "size: 8.125x31.75", "<span class='oldPriceSale'>250</span>", 220, "არჩევა", 0, "bakerReynoldsGreen");
+const statement26= new Statement('Flip deck & grip <span class="saleProduct">sale 12% </span>', "./productFotoAll/tomPennyFlip.png", "size: 8.0x 31.5", "<span class='oldPriceSale'>250</span>", 220, "არჩევა", 0, "tomPennyFlip");
+const statement27= new Statement('Baker deck & grip <span class="saleProduct">sale 12% </span>', "./productFotoAll/bakerBlueDark.png", "size: 8.125x31.75", "<span class='oldPriceSale'>250</span>", 220, "არჩევა", 0, "bakerBlueDark");
+const statement28= new Statement('Flip  <span class="saleProduct">sale 30% </span> ', "./productFotoAll/flieBlueDark.png", "size: 8.0x31.25", "<span class='oldPriceSale'>250</span>", 175, "არჩევა", 0, "flieBlueDarkSale");
+const statement29= new Statement('Flip  <span class="saleProduct">sale 30% </span>', "./productFotoAll/flipBlue.png", "size: 7.75x31.25", "<span class='oldPriceSale'>250</span>", 175, "არჩევა", 0, "flipBlueSale");
 
 
-const statementsArrayDecks = [statement10, statement11, statement12, statement13,statement14,statement15,statement16,statement17,statement18,statement19];
+const statementsArrayDecks = [statement20, statement21, statement22, statement23,statement24,statement25,statement26,statement27,statement28,statement29];
 
 
 const appendStatementDecks = (statement) => {

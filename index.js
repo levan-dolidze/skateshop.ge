@@ -3,30 +3,28 @@ const searchBtn = document.querySelector(".searchButton");
 const searchInput = document.querySelector(".searchInput");
 
 const price = "ფასი";
-const statement1 = new Statement('Element Wine Leaf 92 deck', "./productFotoAll/elementLeaf.jpg", "size: 8.125x31.75", "", 250, "არჩევა", 0, "elementLeaf");
-const statement2 = new Statement('Element julian davidson deck', "./productFotoAll/elementJulianDavidson.png", "size: 8.0x31.75", "", 250, "არჩევა", 0, "elementJulianDavidson");
-const statement3 = new Statement('Baker Figgy Brand Name Blue Deck ', "./productFotoAll/bakerFiggy.jpg", " size: 8.125x31.75", "", 250, "არჩევა", 0, "bakerFiggy");
-const statement4 = new Statement('Baker Tyson Peterson  name deck', "./productFotoAll/bakerTyson.jpg", "size: 8.125x31.75", "", 250, "არჩევა", 0, "bakerTyson");
-const statement5 = new Statement('Baker Brand Logo deck', "./productFotoAll/bakerBrandLogoRed.jpg", "size: 8.125x31.75", "", 250, "არჩევა", 0, "bakerBrandLogoRed");
-const statement6= new Statement('Baker Skateboards Green Deck', "./productFotoAll/bakerReynoldsGreen.jpg", "size: 8.125x31.75", "", 250, "არჩევა", 0, "bakerReynoldsGreen");
-const statement7= new Statement('Tom Penny Deck', "./productFotoAll/tomPennyFlip.png", "size: 8.0x 31.5", "", 250, "არჩევა", 0, "tomPennyFlip");
-const statement8= new Statement('Baker deck', "./productFotoAll/bakerBlueDark.png", "size: 8.125x31.75", "", 250, "არჩევა", 0, "bakerBlueDark");
-const statement9= new Statement('Flip  <span class="saleProduct">sale 30% </span> ', "./productFotoAll/flieBlueDark.png", "size: 8.0x31.25", "<span class='oldPriceSale'>250</span>", 175, "არჩევა", 0, "flieBlueDarkSale");
-const statement10= new Statement('Flip  <span class="saleProduct">sale 30% </span>', "./productFotoAll/flipBlue.png", "size: 7.75x31.25", "<span class='oldPriceSale'>250</span>", 175, "არჩევა", 0, "flipBlueSale");
-const statement11= new Statement('Independent Hollow Forged', "./productFotoAll/101large.jpg", "Hollow size: 139 Standard", "", 179, "არჩევა", 0, "IndependentTrucksRed");
-const statement12= new Statement('Independent Thrasher Trucks', "./productFotoAll/100large.jpg", "Hollow size: 139 Standard", "", 179, "არჩევა", 0, "IndependentTrucksThrasher");
+const statement0 = new Statement('Element deck & grip <span class="saleProduct">sale 12% </span> ', "./productFotoAll/elementLeaf.jpg", "size: 8.125x31.75", "<span class='oldPriceSale'>250</span>", 220, "არჩევა", 0, "elementLeaf");
+const statement1 = new Statement('Element deck & grip <span class="saleProduct">sale 12% </span>', "./productFotoAll/elementJulianDavidson.png", "size: 8.0x31.75", "<span class='oldPriceSale'>250</span>", 220, "არჩევა", 0, "elementJulianDavidson");
+const statement2 = new Statement('Baker deck & grip <span class="saleProduct">sale 12% </span> ', "./productFotoAll/bakerFiggy.jpg", " size: 8.125x31.75", "<span class='oldPriceSale'>250</span>", 220, "არჩევა", 0, "bakerFiggy");
+const statement3 = new Statement('Baker deck & grip <span class="saleProduct">sale 12% </span>', "./productFotoAll/bakerTyson.jpg", "size: 8.125x31.75", "<span class='oldPriceSale'>250</span>", 220, "არჩევა", 0, "bakerTyson");
+const statement4 = new Statement('Baker deck & grip <span class="saleProduct">sale 12% </span>', "./productFotoAll/bakerBrandLogoRed.jpg", "size: 8.125x31.75", "<span class='oldPriceSale'>250</span>", 220, "არჩევა", 0, "bakerBrandLogoRed");
+const statement5= new Statement('Baker deck & grip <span class="saleProduct">sale 12% </span>', "./productFotoAll/bakerReynoldsGreen.jpg", "size: 8.125x31.75", "<span class='oldPriceSale'>250</span>", 220, "არჩევა", 0, "bakerReynoldsGreen");
+const statement6= new Statement('Flip deck & grip <span class="saleProduct">sale 12% </span>', "./productFotoAll/tomPennyFlip.png", "size: 8.0x 31.5", "<span class='oldPriceSale'>250</span>", 220, "არჩევა", 0, "tomPennyFlip");
+const statement7= new Statement('Baker deck & grip <span class="saleProduct">sale 12% </span>', "./productFotoAll/bakerBlueDark.png", "size: 8.125x31.75", "<span class='oldPriceSale'>250</span>", 220, "არჩევა", 0, "bakerBlueDark");
+const statement8= new Statement('Flip  <span class="saleProduct">sale 30% </span> ', "./productFotoAll/flieBlueDark.png", "size: 8.0x31.25", "<span class='oldPriceSale'>250</span>", 175, "არჩევა", 0, "flieBlueDarkSale");
+const statement9= new Statement('Flip  <span class="saleProduct">sale 30% </span>', "./productFotoAll/flipBlue.png", "size: 7.75x31.25", "<span class='oldPriceSale'>250</span>", 175, "არჩევა", 0, "flipBlueSale");
+const statement10= new Statement('Independent Hollow Forged', "./productFotoAll/101large.jpg", "Hollow size: 139 Standard", "", 179, "არჩევა", 0, "IndependentTrucksRed");
+const statement11= new Statement('Independent Thrasher Trucks', "./productFotoAll/100large.jpg", "Hollow size: 139 Standard", "", 179, "არჩევა", 0, "IndependentTrucksThrasher");
 // const statement13= new Statement('Independent Hollow Forged ', "./productFotoAll/102large.jpg", "size:139 Stage 11 matte black ", "", 179, "არჩევა", 0, "IndependentTrucksBlack");
-const statement14= new Statement('Spitfire Formula Four ', "./productFotoAll/200large.jpg", "size:53mm ", "", 119, "არჩევა", 0, "spitfireBlue53");
-const statement15= new Statement('Spitfire Formula Four ', "./productFotoAll/202large.jpg", "Lacey Baker size:51mm ", "", 119, "არჩევა", 0, "spitfireBaker51");
-const statement16= new Statement('Spitfire Formula Four ', "./productFotoAll/203large.jpg", "red size:53mm ", "", 119, "არჩევა", 0, "spitfirered53");
-const statement17= new Statement('Spitfire Formula Four ', "./productFotoAll/204large.jpg", " size:52mm ", "", 119, "არჩევა", 0, "spitfireBlue52");
-const statement18= new Statement('Spitfire Formula Four ', "./productFotoAll/205large.png", " size:52mm ", "", 119, "არჩევა", 0, "spitfireColorfull52");
+const statement12= new Statement('Spitfire Formula Four ', "./productFotoAll/200large.jpg", "size:53mm ", "", 119, "არჩევა", 0, "spitfireBlue53");
+const statement13= new Statement('Spitfire Formula Four ', "./productFotoAll/202large.jpg", "Lacey Baker size:51mm ", "", 119, "არჩევა", 0, "spitfireBaker51");
+const statement14= new Statement('Spitfire Formula Four ', "./productFotoAll/203large.jpg", "red size:53mm ", "", 119, "არჩევა", 0, "spitfirered53");
+const statement15= new Statement('Spitfire Formula Four ', "./productFotoAll/204large.jpg", " size:52mm ", "", 119, "არჩევა", 0, "spitfireBlue52");
+const statement16= new Statement('Spitfire Formula Four ', "./productFotoAll/205large.png", " size:52mm ", "", 119, "არჩევა", 0, "spitfireColorfull52");
 
 
 
-
-const statementsArray = [statement1, statement2, statement3, statement4,statement5,statement6,statement7,statement8,statement9,statement10,statement11,statement12,statement14,statement15,statement16,statement17,statement18];
-
+const statementsArray = [statement0,statement1, statement2, statement3, statement4,statement5,statement6,statement7,statement8,statement9,statement10,statement11,statement12,statement13,statement14,statement15,statement16];
 
 const appendStatement = (statement) => {
   const statementTemplate = `
