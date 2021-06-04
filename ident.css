@@ -116,10 +116,11 @@ color: white;
 }
 
 .dropdown-menu{
-border-radius: 5px;
-background-color: #b2c8fc;
-width: 250px;
-}
+    border-radius: 5px;
+    /* background-color: #b2c8fc; */
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(129, 124, 124, 0.19);
+    }
 .navbar-text a{
     text-decoration:none;
 }
