@@ -2,7 +2,7 @@ const saleList = document.querySelector(".saleList");
 
 
 
-const statement50= new Statement('Flip  <span class="saleProduct">sale 30% </span> ', "./productFotoAll/flieBlueDark.png", "size: 8.0x31.25", "<span class='oldPriceSale'>250</span>", 175, "არჩევა", 0, "flieBlueDarkSale");
+// const statement50= new Statement('Flip  <span class="saleProduct">sale 30% </span> ', "./productFotoAll/flieBlueDark.png", "size: 8.0x31.25", "<span class='oldPriceSale'>250</span>", 175, "არჩევა", 0, "flieBlueDarkSale");
 const statement51= new Statement('Flip  <span class="saleProduct">sale 30% </span>', "./productFotoAll/flipBlue.png", "size: 7.75x31.25", "<span class='oldPriceSale'>250</span>", 175, "არჩევა", 0, "flipBlueSale");
 const statement52 = new Statement('Element deck & grip <span class="saleProduct">sale 12% </span> ', "./productFotoAll/elementLeaf.jpg", "size: 8.125x31.75", "<span class='oldPriceSale'>250</span>", 220, "არჩევა", 0, "elementLeaf");
 const statement53 = new Statement('Element deck & grip <span class="saleProduct">sale 12% </span>', "./productFotoAll/elementJulianDavidson.png", "size: 8.0x31.75", "<span class='oldPriceSale'>250</span>", 220, "არჩევა", 0, "elementJulianDavidson");
@@ -12,7 +12,7 @@ const statement56 = new Statement('Baker deck & grip <span class="saleProduct">s
 const statement57= new Statement('Baker deck & grip <span class="saleProduct">sale 12% </span>', "./productFotoAll/bakerReynoldsGreen.jpg", "size: 8.125x31.75", "<span class='oldPriceSale'>250</span>", 220, "არჩევა", 0, "bakerReynoldsGreen");
 const statement58= new Statement('Flip deck & grip <span class="saleProduct">sale 12% </span>', "./productFotoAll/tomPennyFlip.png", "size: 8.0x 31.5", "<span class='oldPriceSale'>250</span>", 220, "არჩევა", 0, "tomPennyFlip");
 const statement59= new Statement('Baker deck & grip <span class="saleProduct">sale 12% </span>', "./productFotoAll/bakerBlueDark.png", "size: 8.125x31.75", "<span class='oldPriceSale'>250</span>", 220, "არჩევა", 0, "bakerBlueDark");
-const statementsArray3 = [statement50,statement51,statement52,statement53,statement54,statement55,statement56,statement57,statement58,statement59];
+const statementsArray3 = [statement51,statement52,statement53,statement54,statement55,statement56,statement57,statement58,statement59];
 
 
 const appendStatement2 = (statement) => {
