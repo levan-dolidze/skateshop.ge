@@ -1,7 +1,7 @@
 const productList = document.querySelector(".productList");
 const searchBtn = document.querySelector(".searchButton");
 const searchInput = document.querySelector(".searchInput");
-
+const eventBtn =document.getElementById('eventBtn')
 const price = "ფასი";
 const statement0 = new Statement('Element deck & grip <span class="saleProduct">sale 12% </span> ', "./productFotoAll/elementLeaf.jpg", "size: 8.125x31.75", "<span class='oldPriceSale'>250</span>", 220, "არჩევა", 0, "elementLeaf");
 const statement1 = new Statement('Element deck & grip <span class="saleProduct">sale 12% </span>', "./productFotoAll/elementJulianDavidson.png", "size: 8.0x31.75", "<span class='oldPriceSale'>250</span>", 220, "არჩევა", 0, "elementJulianDavidson");
@@ -422,3 +422,20 @@ function clearCart() {
 clearCart();
 onloadCartCost();
 onloadCartNumbers();
+
+
+// event funvtion
+
+// const eventDiv =document.querySelector('.eventDiv');
+
+// eventBtn.addEventListener('click',()=>{
+
+
+// eventDiv.classList.toggle("showEventdiv");
+
+
+
+// })
+
+
+

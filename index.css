@@ -119,3 +119,29 @@ background-color: white;
 
 
 
+
+/* .eventDiv{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    text-align: center;
+    background-color:  #F5F6F7;
+
+
+}
+
+.showEventdiv{
+visibility: visible !important;
+}
+
+.formfildEvent{
+    padding: 4px;
+    width: 90%;
+    border: 1px solid #F8F9F7;
+    outline: none;
+ display: flex;
+ margin: auto;
+
+} */
