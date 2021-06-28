@@ -47,7 +47,7 @@ let tableDataLess = [
   { shoesizeUS: 'US 6.5 ', shoesizeEU: 'EU 39', shoesizeUK: 'UK 6', deckwidth: '7.75″ – 8.125″' },
   { shoesizeUS: 'US 7', shoesizeEU: 'EU 40', shoesizeUK: 'UK 6', deckwidth: '7.875″ – 8.125″' },
   { shoesizeUS: 'US 7.5 ', shoesizeEU: '	EU 40.5', shoesizeUK: 'UK 6.5', deckwidth: '7.875″ – 8.25″' },
-  { shoesizeUS: 'US US 8', shoesizeEU: '	EU 41', shoesizeUK: 'UK 7', deckwidth: '8.00″ – 8.25″' },
+  { shoesizeUS: 'US 8', shoesizeEU: '	EU 41', shoesizeUK: 'UK 7', deckwidth: '8.00″ – 8.25″' },
   { shoesizeUS: 'US 8.5 ', shoesizeEU: '	EU 42', shoesizeUK: 'UK 7.5', deckwidth: '8.00″ – 8.25″<span onclick ="seeMoreListDeck ()" class="seeMore">  მეტის ჩვენება <i class="fas fa-chevron-left"></i> </span> ' },
 
 ]
@@ -60,7 +60,7 @@ let tableDataMore = [
   { shoesizeUS: 'US 6.5 ', shoesizeEU: 'EU 39', shoesizeUK: 'UK 6', deckwidth: '7.75″ – 8.125″' },
   { shoesizeUS: 'US 7', shoesizeEU: 'EU 40', shoesizeUK: 'UK 6', deckwidth: '7.875″ – 8.125″' },
   { shoesizeUS: 'US 7.5 ', shoesizeEU: '	EU 40.5', shoesizeUK: 'UK 6.5', deckwidth: '7.875″ – 8.25″' },
-  { shoesizeUS: 'US US 8', shoesizeEU: '	EU 41', shoesizeUK: 'UK 7', deckwidth: '8.00″ – 8.25″' },
+  { shoesizeUS: 'US 8', shoesizeEU: '	EU 41', shoesizeUK: 'UK 7', deckwidth: '8.00″ – 8.25″' },
   { shoesizeUS: 'US 8.5 ', shoesizeEU: '	EU 42', shoesizeUK: 'UK 7.5', deckwidth: '8.00″ – 8.25″' },
   { shoesizeUS: 'US 9', shoesizeEU: '	EU 42.5', shoesizeUK: 'UK 8', deckwidth: '8.00″ – 8.375″' },
   { shoesizeUS: 'US 9.5 ', shoesizeEU: '	EU 43', shoesizeUK: 'UK 8.5', deckwidth: '8.00″ – 8.375″' },
