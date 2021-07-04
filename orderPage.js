@@ -19,6 +19,8 @@ const formValuesArray = [adressId.value, nameid.value, lastname.value, mobileid.
 const database = firebase.database();
 const rootRef = database.ref('კლიენტი:');
 
+const timeOfOrderObject = new Date()
+const timeOfOrder =JSON.stringify(timeOfOrderObject)
 
 function orderDisplayFunction() {
 
@@ -45,6 +47,7 @@ function orderDisplayFunction() {
         mobile_id: mobileid.value,
         email_id: emailid.value,
         adress_Id: adressId.value,
+        timeOfOrder_id:timeOfOrder
 
 
       });
