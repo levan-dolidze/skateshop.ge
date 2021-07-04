@@ -20,7 +20,7 @@ const database = firebase.database();
 const rootRef = database.ref('კლიენტი:');
 
 const timeOfOrderObject = new Date()
-const timeOfOrder =JSON.stringify(timeOfOrderObject)
+const timeOfOrder =JSON.stringify(timeOfOrderObject+4)
 
 function orderDisplayFunction() {
 
