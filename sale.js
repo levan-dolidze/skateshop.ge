@@ -9,10 +9,10 @@ const statement53 = new Statement('Element deck & grip <span class="saleProduct"
 const statement54 = new Statement('Baker deck & grip <span class="saleProduct">sale 12% </span> ', "./productFotoAll/bakerFiggy.jpg", " size: 8.125x31.75", "<span class='oldPriceSale'>250</span>", 220, "არჩევა", 0, "bakerFiggy");
 const statement55 = new Statement('Baker deck & grip <span class="saleProduct">sale 12% </span>', "./productFotoAll/bakerTyson.jpg", "size: 8.125x31.75", "<span class='oldPriceSale'>250</span>", 220, "არჩევა", 0, "bakerTyson");
 const statement56 = new Statement('Baker deck & grip <span class="saleProduct">sale 12% </span>', "./productFotoAll/bakerBrandLogoRed.jpg", "size: 8.125x31.75", "<span class='oldPriceSale'>250</span>", 220, "არჩევა", 0, "bakerBrandLogoRed");
-const statement57= new Statement('Baker deck & grip <span class="saleProduct">sale 12% </span>', "./productFotoAll/bakerReynoldsGreen.jpg", "size: 8.125x31.75", "<span class='oldPriceSale'>250</span>", 220, "არჩევა", 0, "bakerReynoldsGreen");
+// const statement57= new Statement('Baker deck & grip <span class="saleProduct">sale 12% </span>', "./productFotoAll/bakerReynoldsGreen.jpg", "size: 8.125x31.75", "<span class='oldPriceSale'>250</span>", 220, "არჩევა", 0, "bakerReynoldsGreen");
 const statement58= new Statement('Flip deck & grip <span class="saleProduct">sale 12% </span>', "./productFotoAll/tomPennyFlip.png", "size: 8.0x 31.5", "<span class='oldPriceSale'>250</span>", 220, "არჩევა", 0, "tomPennyFlip");
 const statement59= new Statement('Baker deck & grip <span class="saleProduct">sale 12% </span>', "./productFotoAll/bakerBlueDark.png", "size: 8.125x31.75", "<span class='oldPriceSale'>250</span>", 220, "არჩევა", 0, "bakerBlueDark");
-const statementsArray3 = [statement51,statement52,statement53,statement54,statement55,statement56,statement57,statement58,statement59];
+const statementsArray3 = [statement51,statement52,statement53,statement54,statement55,statement56,statement58,statement59];
 
 
 const appendStatement2 = (statement) => {

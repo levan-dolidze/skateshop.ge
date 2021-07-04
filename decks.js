@@ -9,14 +9,14 @@ const statement21= new Statement('Element deck & grip <span class="saleProduct">
 const statement22 = new Statement('Baker deck & grip <span class="saleProduct">sale 12% </span> ', "./productFotoAll/bakerFiggy.jpg", " size: 8.125x31.75", "<span class='oldPriceSale'>250</span>", 220, "არჩევა", 0, "bakerFiggy");
 const statement23 = new Statement('Baker deck & grip <span class="saleProduct">sale 12% </span>', "./productFotoAll/bakerTyson.jpg", "size: 8.125x31.75", "<span class='oldPriceSale'>250</span>", 220, "არჩევა", 0, "bakerTyson");
 const statement24 = new Statement('Baker deck & grip <span class="saleProduct">sale 12% </span>', "./productFotoAll/bakerBrandLogoRed.jpg", "size: 8.125x31.75", "<span class='oldPriceSale'>250</span>", 220, "არჩევა", 0, "bakerBrandLogoRed");
-const statement25= new Statement('Baker deck & grip <span class="saleProduct">sale 12% </span>', "./productFotoAll/bakerReynoldsGreen.jpg", "size: 8.125x31.75", "<span class='oldPriceSale'>250</span>", 220, "არჩევა", 0, "bakerReynoldsGreen");
+// const statement25= new Statement('Baker deck & grip <span class="saleProduct">sale 12% </span>', "./productFotoAll/bakerReynoldsGreen.jpg", "size: 8.125x31.75", "<span class='oldPriceSale'>250</span>", 220, "არჩევა", 0, "bakerReynoldsGreen");
 const statement26= new Statement('Flip deck & grip <span class="saleProduct">sale 12% </span>', "./productFotoAll/tomPennyFlip.png", "size: 8.0x 31.5", "<span class='oldPriceSale'>250</span>", 220, "არჩევა", 0, "tomPennyFlip");
 const statement27= new Statement('Baker deck & grip <span class="saleProduct">sale 12% </span>', "./productFotoAll/bakerBlueDark.png", "size: 8.125x31.75", "<span class='oldPriceSale'>250</span>", 220, "არჩევა", 0, "bakerBlueDark");
 // const statement28= new Statement('Flip  <span class="saleProduct">sale 30% </span> ', "./productFotoAll/flieBlueDark.png", "size: 8.0x31.25", "<span class='oldPriceSale'>250</span>", 175, "არჩევა", 0, "flieBlueDarkSale");
 const statement29= new Statement('Flip  <span class="saleProduct">sale 30% </span>', "./productFotoAll/flipBlue.png", "size: 7.75x31.25", "<span class='oldPriceSale'>250</span>", 175, "არჩევა", 0, "flipBlueSale");
 
 
-const statementsArrayDecks = [statement20, statement21, statement22, statement23,statement24,statement25,statement26,statement27,statement29];
+const statementsArrayDecks = [statement20, statement21, statement22, statement23,statement24,statement26,statement27,statement29];
 
 
 const appendStatementDecks = (statement) => {

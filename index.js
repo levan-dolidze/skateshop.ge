@@ -8,7 +8,7 @@ const statement1 = new Statement('Element deck & grip <span class="saleProduct">
 const statement2 = new Statement('Baker deck & grip <span class="saleProduct">sale 12% </span> ', "./productFotoAll/bakerFiggy.jpg", " size: 8.125x31.75", "<span class='oldPriceSale'>250</span>", 220, "არჩევა", 0, "bakerFiggy");
 const statement3 = new Statement('Baker deck & grip <span class="saleProduct">sale 12% </span>', "./productFotoAll/bakerTyson.jpg", "size: 8.125x31.75", "<span class='oldPriceSale'>250</span>", 220, "არჩევა", 0, "bakerTyson");
 const statement4 = new Statement('Baker deck & grip <span class="saleProduct">sale 12% </span>', "./productFotoAll/bakerBrandLogoRed.jpg", "size: 8.125x31.75", "<span class='oldPriceSale'>250</span>", 220, "არჩევა", 0, "bakerBrandLogoRed");
-const statement5= new Statement('Baker deck & grip <span class="saleProduct">sale 12% </span>', "./productFotoAll/bakerReynoldsGreen.jpg", "size: 8.125x31.75", "<span class='oldPriceSale'>250</span>", 220, "არჩევა", 0, "bakerReynoldsGreen");
+// const statement5= new Statement('Baker deck & grip <span class="saleProduct">sale 12% </span>', "./productFotoAll/bakerReynoldsGreen.jpg", "size: 8.125x31.75", "<span class='oldPriceSale'>250</span>", 220, "არჩევა", 0, "bakerReynoldsGreen");
 const statement6= new Statement('Flip deck & grip <span class="saleProduct">sale 12% </span>', "./productFotoAll/tomPennyFlip.png", "size: 8.0x 31.5", "<span class='oldPriceSale'>250</span>", 220, "არჩევა", 0, "tomPennyFlip");
 const statement7= new Statement('Baker deck & grip <span class="saleProduct">sale 12% </span>', "./productFotoAll/bakerBlueDark.png", "size: 8.125x31.75", "<span class='oldPriceSale'>250</span>", 220, "არჩევა", 0, "bakerBlueDark");
 // const statement8= new Statement('Flip  <span class="saleProduct">sale 30% </span> ', "./productFotoAll/flieBlueDark.png", "size: 8.0x31.25", "<span class='oldPriceSale'>250</span>", 175, "არჩევა", 0, "flieBlueDarkSale");
@@ -24,7 +24,7 @@ const statement16= new Statement('Spitfire Formula Four ', "./productFotoAll/205
 
 
 
-const statementsArray = [statement0,statement1, statement2, statement3, statement4,statement5,statement6,statement7,statement9,statement10,statement11,statement12,statement13,statement14,statement15,statement16];
+const statementsArray = [statement0,statement1, statement2, statement3, statement4,statement6,statement7,statement9,statement10,statement11,statement12,statement13,statement14,statement15,statement16];
 
 const appendStatement = (statement) => {
   const statementTemplate = `

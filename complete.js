@@ -9,11 +9,11 @@ const statement33 = new Completes('Complete', "./productFotoAll/complete004.png"
 const statement34 = new Completes('Complete', "./productFotoAll/complete005.png", "deck:8.0x 31.5/wheel:51mm/trucks:139", "", 549, "არჩევა", 0, "complete005");
 const statement35 = new Completes('Complete', "./productFotoAll/complete006.png", "deck:8.125x31.75/wheel:53mm/trucks:139", "", 549, "არჩევა", 0, "complete006");
 const statement36 = new Completes('Complete', "./productFotoAll/complete007.png", "deck: 8.125x31.75/wheel:53mm/trucks:139", "", 549, "არჩევა", 0, "complete007");
-const statement37 = new Completes('Complete', "./productFotoAll/complete008.png", "deck:8.125x31.75/wheel:53mm/trucks:139", "", 549, "არჩევა", 0, "complete008");
+// const statement37 = new Completes('Complete', "./productFotoAll/complete008.png", "deck:8.125x31.75/wheel:53mm/trucks:139", "", 549, "არჩევა", 0, "complete008");
 // const statement38 = new Completes('Complete', "./productFotoAll/complete009.png", "deck:8.0x31.25/wheel:53mm/trucks:139", "", 475, "არჩევა", 0, "complete009");
 const statement39 = new Completes('Complete', "./productFotoAll/complete010.png", "deck:7.75x31.25/wheel:53mm/trucks:139", "", 475, "არჩევა", 0, "complete010");
 
-const statementsArrayComplete = [statement30, statement31,statement32,statement33,statement34,statement35,statement36,statement37,statement39];
+const statementsArrayComplete = [statement30, statement31,statement32,statement33,statement34,statement35,statement36,statement39];
 
 
 const appendStatementComplete = (statement) => {
